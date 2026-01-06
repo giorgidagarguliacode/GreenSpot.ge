@@ -1,0 +1,8 @@
+@use "variables";
+@mixin flex($dir:row,$wrap:wrap,$js-content:center, $al-items: center){
+    display: flex;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $js-content;
+    align-items: $al-items;
+}
