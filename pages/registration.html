@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenSpot.ge რეგისტრაცია</title>
+    <link rel="stylesheet" href="../css/styles.css">
+     <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/arial-geo/css/arial-geo.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="registrationbody">
+   <main class="registrationmain">
+   <div class="registrationtop">
+     <h1>GreenSpot.ge</h1>
+    <a href="../index.html"><img src="../images/greensopotlogo1.png"alt="greensopotlogo1"/></a>
+   </div>
+   <hr>
+   <div class="registrationbottom">
+        <h2>რეგისტრაცია</h2>
+        <form class="registrationform" action="../index.html">
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="fname" placeholder="შეიყვანეთ თქვენი სახელი" required>
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lname" placeholder="შეიყვანეთ თქვენი გვარი" required>
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ.ფოსტა" required>
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" placeholder="შეიყვანეთ თქვენი პაროლი" required>
+        <button type="submit">დადასტურება</button>
+        </form>
+   </div>
+</main>
 </body>
 </html>
