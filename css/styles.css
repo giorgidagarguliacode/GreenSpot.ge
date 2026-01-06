@@ -1,1 +1,1376 @@
-/*# sourceMappingURL=styles.css.map */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #077431;
+  height: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: none;
+  padding: 45px 0 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+header .regitrationbutton, header .donationbutton {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header .regitrationbutton .registrationa, header .donationbutton .donationa {
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+}
+
+.sec1 nav a button {
+  color: white;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 40px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  background-color: #077431;
+  cursor: pointer;
+}
+
+.sec1 nav a {
+  color: white;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sec2, .aboutussec2, .servicesec2, .newssec2 {
+  height: 800px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 h1, .aboutussec2 h1, .servicesec2 h1, .newssec2 h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+
+.sec3 .sec3div .sec3container2 .sec3containernav div button {
+  cursor: pointer;
+  width: 250px;
+  height: 60px;
+  background-color: #077431;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.sec3 .sec3div .sec3container2 .sec3containernav div a, .sec4 .sec4container .sec4leftcontainer button a {
+  color: white;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sec3 .sec3div .sec3container2 p, .sec4 .sec4container .sec4leftcontainer p {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  width: 500px;
+  position: relative;
+  bottom: 10px;
+}
+
+footer .footercontainer1 .footernavigation .footernav1 nav, footer .footercontainer1 .footernavigation .footernav2 nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 65px;
+}
+
+footer .footercontainer1 .footernavigation .footernav1 nav div a, footer .footercontainer1 .footernavigation .footernav2 nav div a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+
+header .headerdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  gap: 100px;
+}
+header .headerdiv h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+header .headerdiv i {
+  font-size: 30px;
+}
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+.sec1 img {
+  width: 150px;
+  margin: 0 70px 0 140px;
+}
+.sec1 .divider {
+  height: 150px;
+  width: 4px;
+  background-color: #077431;
+  margin-right: 100px;
+}
+.sec1 nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 80px;
+}
+.sec1 nav a i {
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+.sec2 {
+  background-image: url(../images/georgianature1.jpg);
+}
+.sec3 {
+  margin-bottom: 200px;
+}
+.sec3 h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 70px;
+  font-family: "Arial GEO", sans-serif;
+}
+.sec3 hr {
+  width: 58%;
+  margin-bottom: 100px;
+}
+.sec3 .sec3div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.sec3 .sec3div .sec3container1 {
+  width: 500px;
+  height: 600px;
+  background-image: url(../images/georgianature2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec3 .sec3div .sec3container2 p {
+  margin-bottom: 65px;
+}
+.sec3 .sec3div .sec3container2 .sec3containernav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 50px;
+}
+.sec3 .sec3div .sec3container2 .sec3containernav div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 50px;
+}
+.sec3 .sec3div .sec3container2 .sec3containernav div i {
+  font-size: 40px;
+}
+.sec4 {
+  margin-bottom: 150px;
+}
+.sec4 h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 70px;
+  font-family: "Arial GEO", sans-serif;
+}
+.sec4 hr {
+  width: 63%;
+  margin-bottom: 100px;
+}
+.sec4 .sec4container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  margin-bottom: 100px;
+  gap: 120px;
+}
+.sec4 .sec4container .sec4leftcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 50px;
+}
+.sec4 .sec4container .sec4leftcontainer span {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.sec4 .sec4container .sec4leftcontainer i {
+  font-size: 30px;
+  position: relative;
+  left: 105px;
+}
+.sec4 .sec4container .sec4leftcontainer button {
+  cursor: pointer;
+  width: 250px;
+  height: 70px;
+  background-color: #077431;
+  border: none;
+  border-radius: 10px;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.sec4 .sec4container .sec4rightcontainer {
+  width: 500px;
+  height: 600px;
+  background-image: url(../images/georgianature3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec5 {
+  height: 300px;
+  background-color: #077431;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+.sec5 h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.sec5 i {
+  font-size: 40px;
+}
+
+.sec6 {
+  margin-bottom: 150px;
+}
+.sec6 .sec6container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+}
+.sec6 .sec6container .topbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+}
+.sec6 .sec6container .topbox .topboxleft {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sec6 .sec6container .topbox .topboxleft h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: "Arial GEO", sans-serif;
+}
+.sec6 .sec6container .topbox .topboxleft .underline {
+  height: 5px;
+  width: 200px;
+  background-color: #077431;
+  margin-bottom: 50px;
+}
+.sec6 .sec6container .topbox .topboxleft p {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  width: 650px;
+  line-height: 1.3;
+  font-family: "Arial GEO", sans-serif;
+}
+.sec6 .sec6container .topbox .topboxright {
+  background-image: url(../images/georgianature4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+}
+.sec6 .sec6container .bottombox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+}
+.sec6 .sec6container .bottombox .bottomboxleft {
+  background-image: url(../images/georgianature5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
+}
+.sec6 .sec6container .bottombox .bottomboxright {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sec6 .sec6container .bottombox .bottomboxright h3 {
+  font-family: "Arial GEO", sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.sec6 .sec6container .bottombox .bottomboxright .underline {
+  height: 5px;
+  width: 200px;
+  background-color: #077431;
+  margin-bottom: 50px;
+}
+.sec6 .sec6container .bottombox .bottomboxright p {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  width: 650px;
+  line-height: 1.3;
+  font-family: "Arial GEO", sans-serif;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.836);
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: none;
+}
+footer .footercontainer1 h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 65px;
+  margin-top: 120px;
+  text-align: center;
+  font-family: "Arial GEO", sans-serif;
+}
+footer .footercontainer1 hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  margin: 40px auto;
+}
+footer .footercontainer1 .footernavigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 100px;
+}
+footer .footercontainer1 .footernavigation .footernav1 nav div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 5px;
+}
+footer .footercontainer1 .footernavigation .footernav1 nav div i {
+  font-size: 20px;
+}
+footer .footercontainer1 .footernavigation .footernav2 nav div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 5px;
+}
+footer .footercontainer1 .footernavigation .footernav2 nav div a {
+  position: relative;
+  left: 60px;
+}
+footer .footercontainer1 .footernavigation .footernav2 nav div i {
+  font-size: 20px;
+  position: relative;
+  left: 60px;
+}
+footer .footercontainer2 h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 65px;
+  margin-top: 120px;
+  text-align: center;
+  font-family: "Arial GEO", sans-serif;
+}
+footer .footercontainer2 .container2hr1 {
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  margin: 40px auto;
+}
+footer .footercontainer2 .socialplatforms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 100px;
+}
+footer .footercontainer2 .socialplatforms a {
+  font-family: "Arial GEO", sans-serif;
+}
+footer .footercontainer2 .socialplatforms a img {
+  width: 75px;
+  background: transparent;
+}
+footer .footercontainer2 .socialplatforms a i {
+  font-size: 70px;
+}
+footer .footercontainer2 .socialplatforms a .tbc {
+  width: 60px;
+}
+footer .footercontainer2 .container2hr2 {
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  margin: 40px auto;
+}
+footer .footercontainer2 .footergreespotinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: none;
+  gap: 30px;
+}
+footer .footercontainer2 .footergreespotinfo a img {
+  width: 200px;
+}
+footer .footercontainer2 .footergreespotinfo p {
+  vertical-align: bottom;
+  width: 500px;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+
+.lasthr {
+  display: block;
+  border: none;
+  height: 2px;
+  background-color: white;
+  width: 75%;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.aboutussec2 {
+  background-image: url(../images/georgianature6.jpeg);
+}
+.aboutussec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 200px;
+}
+.aboutussec3 .aboutussec3info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.aboutussec3 h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec3 i {
+  font-size: 60px;
+}
+
+p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+  font-family: "Arial GEO", sans-serif;
+  width: 65%;
+}
+
+.aboutussec4 {
+  background-color: #077431;
+  height: 350px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.aboutussec4 h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec4 i {
+  font-size: 40px;
+}
+
+.aboutussec5 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  background-color: rgba(0, 0, 0, 0.884);
+  margin-bottom: 200px;
+}
+.aboutussec5 .aboutussec5container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 250px;
+}
+.aboutussec5 .aboutussec5container1 .sec5containerimg {
+  background-image: url(../images/georgianature7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 850px;
+}
+.aboutussec5 .aboutussec5container1 .sec5containerinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 50px;
+}
+.aboutussec5 .aboutussec5container1 .sec5containerinfo h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container1 .sec5containerinfo p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  width: 900px;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 250px;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerimg {
+  background-image: url(../images/georgianature8.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 850px;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 50px;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  width: 900px;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  cursor: pointer;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo a button {
+  cursor: pointer;
+  width: 250px;
+  height: 60px;
+  background-color: #077431;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.aboutussec5 .aboutussec5container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 250px;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerimg {
+  background-image: url(../images/georgianature9.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 850px;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 50px;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  width: 900px;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  cursor: pointer;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo a button {
+  cursor: pointer;
+  width: 250px;
+  height: 60px;
+  background-color: #077431;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.aboutussec5 .aboutussec5container4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 250px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerimg {
+  background-image: url(../images/georgianature10.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 850px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 110px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo .sec5infobox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 50px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo .sec5infobox div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 40px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo .sec5infobox div i {
+  font-size: 40px;
+}
+.aboutussec5 .aboutussec5container4 .sec5containerinfo .sec5infobox div span {
+  position: relative;
+  bottom: 15px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  width: 700px;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 250px;
+}
+.aboutussec5 .aboutussec5container5 .sec5containerimg {
+  background-image: url(../images/georgianature10.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 850px;
+}
+.aboutussec5 .aboutussec5container5 .sec5containerinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 50px;
+}
+.aboutussec5 .aboutussec5container5 .sec5containerinfo h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.aboutussec5 .aboutussec5container5 .sec5containerinfo p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2;
+  width: 900px;
+  font-family: "Arial GEO", sans-serif;
+}
+
+.registrationbody {
+  background-image: url(../images/registrationnature.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.registrationmain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  background-color: rgb(12, 97, 12);
+  border-radius: 20px;
+}
+.registrationmain .registrationtop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 800px;
+  height: 200px;
+}
+.registrationmain .registrationtop h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.registrationmain .registrationtop img {
+  width: 100px;
+}
+.registrationmain hr {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.registrationmain .registrationbottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+.registrationmain .registrationbottom h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.registrationmain .registrationbottom form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: none;
+  gap: 20px;
+}
+.registrationmain .registrationbottom form label {
+  color: white;
+  font-size: 20px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.registrationmain .registrationbottom form input {
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: "Arial GEO", sans-serif;
+}
+.registrationmain .registrationbottom form input::-moz-placeholder {
+  color: lightgray;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.registrationmain .registrationbottom form input::placeholder {
+  color: lightgray;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.registrationmain .registrationbottom button {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  background-color: #077431;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.donationcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: none;
+  margin-bottom: 100px;
+}
+.donationcontainer .leftdonationdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 960px;
+  height: 400px;
+  background-color: #077431;
+}
+.donationcontainer .leftdonationdiv h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.donationcontainer .leftdonationdiv p {
+  color: white;
+  font-size: 20px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  width: 750px;
+  line-height: 1.5;
+}
+.donationcontainer .rightdonationdiv {
+  width: 960px;
+  height: 400px;
+  background-image: url(../images/georgianature11.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec1donation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.sec1donation h1 {
+  color: black;
+  font-size: 40px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.sec1donation hr {
+  width: 53%;
+  background-color: black;
+}
+.sec1donation h3 {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  position: relative;
+  right: 250px;
+}
+
+.servicesec2 {
+  background-image: url(../images/georgianature12.jpg);
+}
+.servicesec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.servicesec3 .servicesec3info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.servicesec3 .servicesec3info h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.servicesec3 .servicesec3info i {
+  font-size: 60px;
+}
+.servicesec3 p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Arial GEO", sans-serif;
+  width: 75%;
+  margin-bottom: 30px;
+}
+.servicesec3 hr {
+  width: 100%;
+  background-color: black;
+}
+
+.servicesections {
+  margin-bottom: 100px;
+}
+.servicesections .servicesectionscontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.servicesections .servicesectionscontainer .servicesectionsleftbox1 {
+  background-image: url(../images/georgianature13.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 700px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 50px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox .littlebox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 20px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox .littlebox h2 {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox .littlebox i {
+  font-size: 40px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox p {
+  color: black;
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 900px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 30px;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox ul li {
+  color: black;
+  font-size: 20px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox a button {
+  cursor: pointer;
+  width: 250px;
+  height: 60px;
+  background-color: #077431;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+hr {
+  margin-bottom: 100px;
+}
+
+.servicesectionsleftbox2 {
+  background-image: url(../images/georgianature14.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 650px;
+}
+
+.servicesectionsleftbox3 {
+  background-image: url(../images/georgianature15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 620px;
+}
+
+.newssec2 {
+  background-image: url(../images/georgianature16.webp);
+}
+.newssec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.newssec3 .newssec3info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.newssec3 .newssec3info h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.newssec3 .newssec3info i {
+  font-size: 60px;
+}
+.newssec3 p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Arial GEO", sans-serif;
+  width: 75%;
+  margin-bottom: 30px;
+}
+.newssec3 hr {
+  width: 100%;
+  background-color: black;
+}
+
+.newssec4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+.newssec4 .newssec4container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  background-image: url(../images/nature1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 50px;
+}
+.newssec4 .newssec4container .toppart {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  opacity: 0.6;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 90px;
+}
+.newssec4 .newssec4container .toppart h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+.newssec4 .newssec4container .toppart i {
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+}
+.newssec4 .newssec4container p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Arial GEO", sans-serif;
+  width: 75%;
+  margin-left: 250px;
+  margin-bottom: 75px;
+}
+.newssec4 .newssec4container .bottompart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 20px;
+  margin-left: 250px;
+}
+.newssec4 .newssec4container .bottompart i {
+  font-size: 40px;
+}
+.newssec4 .newssec4container .bottompart span {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  position: relative;
+  top: 5px;
+}/*# sourceMappingURL=styles.css.map */
