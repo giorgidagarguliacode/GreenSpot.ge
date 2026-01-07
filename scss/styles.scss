@@ -1007,20 +1007,22 @@ hr{
   @include mixin.flex(column,wrap,center,center);
   gap: 100px;
   margin-bottom: 100px;
-  .newssec4container{
+  
+  .newssec4container1{
     @include mixin.flex(column,wrap,none,none);
     background-image: url(../images/nature1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    border-radius: 50px;
-    .toppart{
+    width: 90%;
+   
+    .toppart1{
       background-color: black;
       width: 100%;
       height: variables.$m-h;
-      opacity: 0.6;
-     border-radius: 50px;
+      opacity: 0.6; border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
@@ -1049,7 +1051,7 @@ hr{
         margin-left: 250px;
         margin-bottom: 75px;
        }
-       .bottompart{
+       .bottompart1{
         @include mixin.flex(row,wrap,none,none);
         gap: variables.$m-gap;
          margin-left: 250px;
@@ -1067,3 +1069,121 @@ hr{
        }
   }
  }
+ .newssec4{
+  
+ .newssec4container2{
+    @include mixin.flex(column,wrap,none,none);
+    background-image: url(../images/nature2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 90%;
+  
+    .toppart2{
+            background-color: black;
+      width: 100%;
+      height: variables.$m-h;
+      opacity: 0.6;
+    
+      @include mixin.flex(row,wrap,center,center);
+      gap: variables.$l-gap;
+      margin-bottom: 90px;
+
+        h3{
+      color: variables.$primary-color;
+      font-size: variables.$l-fontsize;
+      font-weight: variables.$bold-fontweight;
+      font-family: variables.$font-family;
+      position: relative;
+      z-index: 2;
+     
+     }
+     i{
+      font-size: variables.$l-fontsize;
+      position: relative;
+      z-index: 2;
+     }
+    }
+     p{
+        color: variables.$primary-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        line-height: 1.5;
+        font-family:variables.$font-family;
+        width: 75%;
+        margin-left: 250px;
+        margin-bottom: 75px;
+       }
+      .bottompart2{
+        @include mixin.flex(row,wrap,none,none);
+        gap: variables.$m-gap;
+         margin-left: 250px;
+         
+
+          i{
+          font-size: variables.$xl-fontsize;
+         }
+         span{
+          color: variables.$primary-color;
+          font-size: variables.$l-fontsize;
+          font-weight: variables.$bold-fontweight;
+          font-family:variables.$font-family;
+          position: relative;
+          top: 5px;
+         }
+ }
+}
+ }
+ .newssec4{
+  .newssec4container3{
+      @include mixin.flex(column,wrap,none,none);
+    background-image: url(../images/nature2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 90%;
+
+     .toppart3{
+            background-color: black;
+      width: 100%;
+      height: variables.$m-h;
+      opacity: 0.6;
+    
+      @include mixin.flex(row,wrap,center,center);
+      gap: variables.$l-gap;
+      margin-bottom: 90px;
+
+        h3{
+      color: variables.$primary-color;
+      font-size: variables.$l-fontsize;
+      font-weight: variables.$bold-fontweight;
+      font-family: variables.$font-family;
+      position: relative;
+      z-index: 2;
+     
+     }
+     i{
+      font-size: variables.$l-fontsize;
+      position: relative;
+      z-index: 2;
+     }
+    }
+    .bottompart3{
+       @include mixin.flex(row,wrap,center,center);
+    ul{
+       @include mixin.flex(column,wrap,none,none);
+       gap: variables.$xxl-gap;
+       list-style:disc;
+
+       li{
+        font-size: variables.$l-fontsize;
+        color: variables.$primary-color;
+        font-family: variables.$font-family;
+        font-weight: variables.$bold-fontweight;
+       }
+    }
+  }
+ }
+}
