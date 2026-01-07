@@ -117,7 +117,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   cursor: pointer;
 }
 
-.sec2, .aboutussec2, .servicesec2, .newssec2 {
+.sec2, .aboutussec2, .servicesec2, .newssec2, .contactsec2 {
   height: 800px;
   margin-bottom: 150px;
   display: flex;
@@ -126,7 +126,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   justify-content: center;
   align-items: center;
 }
-.sec2 h1, .aboutussec2 h1, .servicesec2 h1, .newssec2 h1 {
+.sec2 h1, .aboutussec2 h1, .servicesec2 h1, .newssec2 h1, .contactsec2 h1 {
   color: white;
   font-size: 30px;
   font-family: "Arial GEO", sans-serif;
@@ -1506,4 +1506,42 @@ hr {
   color: white;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
+}
+
+.contactsec2 {
+  background-image: url(../images/georgianature17.webp);
+}
+.contactsec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.contactsec3 .contactsec3container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 50px;
+}
+.contactsec3 .contactsec3container h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.contactsec3 .contactsec3container i {
+  font-size: 60px;
+}
+.contactsec3 p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.6;
+  font-family: "Arial GEO", sans-serif;
+  width: 70%;
 }/*# sourceMappingURL=styles.css.map */
