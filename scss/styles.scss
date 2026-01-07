@@ -1187,3 +1187,37 @@ hr{
   }
  }
 }
+.contactsec2{
+    background-image: url(../images/georgianature17.webp);
+    @extend %sec2;
+    h1{
+       @extend %sec2h1;
+    }
+ }
+ .contactsec3{
+  @include mixin.flex(column,wrap,center,center);
+  gap: variables.$xxl-gap;
+  margin-bottom: 100px;
+ .contactsec3container{
+  @include mixin.flex(row,wrap,none,none);
+  gap: variables.$xxl-gap;
+  
+  h1{
+       color: variables.$secondery-color;
+      font-size: 60px;
+      font-weight: variables.$bold-fontweight;
+      font-family: variables.$font-family;
+      }
+      i{
+          font-size: 60px;
+      }
+}
+p{
+       color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        line-height: 1.6;
+        font-family:variables.$font-family;
+        width: 70%;
+}
+}
