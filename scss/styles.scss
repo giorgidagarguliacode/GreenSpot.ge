@@ -321,7 +321,7 @@ header{
        nav{
      @extend %footernavigation;
      div{
-       @include mixin.flex(row,wrap,none,none);
+       @include mixin.flex(row,nowrap,none,none);
          gap:5px;
        a{
        @extend  %footera;
@@ -448,7 +448,7 @@ header{
    gap: 80px;
    margin-bottom: 200px;
    .aboutussec3info{
-      @include mixin.flex(row,wrap,center,center);
+      @include mixin.flex(row,nowrap,center,center);
       gap: variables.$xl-gap;
    }
    h1{
@@ -897,7 +897,7 @@ header{
       gap: variables.$xxl-gap;
      
       .littlebox{
-        @include mixin.flex(row,wrap,none,none);
+        @include mixin.flex(row,nowrap,none,none);
         gap: variables.$m-gap;
        
         h2{
@@ -977,7 +977,7 @@ hr{
   gap: variables.$xxl-gap;
   margin-bottom: 100px;
   .newssec3info{
-    @include mixin.flex(row,wrap,center,center);
+    @include mixin.flex(row,nowrap,center,center);
     gap: variables.$xl-gap;
      h1{
       color: variables.$secondery-color;
@@ -1023,7 +1023,7 @@ hr{
       height: variables.$m-h;
       opacity: 0.6; border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-      @include mixin.flex(row,wrap,center,center);
+      @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
      h3{
@@ -1086,7 +1086,7 @@ hr{
       height: variables.$m-h;
       opacity: 0.6;
     
-      @include mixin.flex(row,wrap,center,center);
+      @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
 
@@ -1151,7 +1151,7 @@ hr{
       height: variables.$m-h;
       opacity: 0.6;
     
-      @include mixin.flex(row,wrap,center,center);
+      @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
 
@@ -1199,7 +1199,7 @@ hr{
   gap: variables.$xxl-gap;
   margin-bottom: 100px;
  .contactsec3container{
-  @include mixin.flex(row,wrap,none,none);
+  @include mixin.flex(row,nowrap,none,none);
   gap: variables.$xxl-gap;
   
   h1{
@@ -1220,4 +1220,63 @@ p{
         font-family:variables.$font-family;
         width: 70%;
 }
+}
+.contactsec4{
+  background-image: url(../images/nature3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ @include mixin.flex(column,nowrap,center,center);
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 200px;
+  .contactsec4container{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    border: 4px solid black;
+    @include mixin.flex(column,wrap,center,center);
+    gap: variables.$xxl-gap;
+   
+    .contactsec4box1{
+      @include mixin.flex(row,nowrap,none,none);
+      gap: variables.$m-gap;
+
+      h1{
+        color: variables.$secondery-color;
+        font-family: variables.$font-family;
+        font-size:60px;
+        font-weight: variables.$bold-fontweight;
+      }
+      i{
+        font-size: 60px;
+      }
+    }
+    .contactsec4box2{
+      @include mixin.flex(column,wrap,none,none);
+      gap: variables.$l-gap;
+
+      span{
+         color: variables.$secondery-color;
+        font-family: variables.$font-family;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+      }
+  }
+}
+}
+.contactsec4box3{
+    @include mixin.flex(row,nowrap,none,none);
+      gap: variables.$m-gap;
+  h1{
+     color: variables.$secondery-color;
+        font-family: variables.$font-family;
+        font-size:variables.$xl-fontsize;
+        font-weight: variables.$bold-fontweight
+  }
+  i{
+        font-size: variables.$xl-fontsize;
+      }
 }
