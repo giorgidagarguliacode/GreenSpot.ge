@@ -512,7 +512,7 @@ footer .footercontainer1 .footernavigation {
 footer .footercontainer1 .footernavigation .footernav1 nav div {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: none;
   align-items: none;
   gap: 5px;
@@ -626,7 +626,7 @@ footer .footercontainer2 .footergreespotinfo p {
 .aboutussec3 .aboutussec3info {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -1181,7 +1181,7 @@ p {
 .servicesections .servicesectionscontainer .servicesectionsrightbox .littlebox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: none;
   align-items: none;
   gap: 20px;
@@ -1267,7 +1267,7 @@ hr {
 .newssec3 .newssec3info {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -1326,7 +1326,7 @@ hr {
   border-top-right-radius: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -1396,7 +1396,7 @@ hr {
   opacity: 0.6;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -1466,7 +1466,7 @@ hr {
   opacity: 0.6;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -1523,7 +1523,7 @@ hr {
 .contactsec3 .contactsec3container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: none;
   align-items: none;
   gap: 50px;
@@ -1544,4 +1544,82 @@ hr {
   line-height: 1.6;
   font-family: "Arial GEO", sans-serif;
   width: 70%;
+}
+
+.contactsec4 {
+  background-image: url(../images/nature3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 200px;
+}
+.contactsec4 .contactsec4container {
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  border-radius: 30px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.contactsec4 .contactsec4container .contactsec4box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 20px;
+}
+.contactsec4 .contactsec4container .contactsec4box1 h1 {
+  color: black;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.contactsec4 .contactsec4container .contactsec4box1 i {
+  font-size: 60px;
+}
+.contactsec4 .contactsec4container .contactsec4box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: 30px;
+}
+.contactsec4 .contactsec4container .contactsec4box2 span {
+  color: black;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.contactsec4box3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 20px;
+}
+.contactsec4box3 h1 {
+  color: black;
+  font-family: "Arial GEO", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.contactsec4box3 i {
+  font-size: 40px;
 }/*# sourceMappingURL=styles.css.map */
