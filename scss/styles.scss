@@ -295,6 +295,8 @@ header{
   footer{
     background-color:rgba(0, 0, 0, 0.836);
     height: 800px;
+    width: 100%;
+ 
     @include mixin.flex(row,wrap,space-evenly,none);
     .footercontainer1{
     
@@ -742,6 +744,7 @@ header{
       form{
         @include mixin.flex(column,wrap,center,none);
         gap: variables.$m-gap;
+       
         label{
           color: variables.$primary-color;
           font-size: variables.$m-fontsize;
@@ -814,12 +817,159 @@ header{
     background-size: cover;
   }
 }
+.donation-form {
+  @include mixin.flex(column, wrap, center, center);
+  gap: variables.$xxl-gap;
+  margin-bottom: 150px;
+  width: 100%;
 .sec1donation{
     @include mixin.flex(column,wrap,center,center);
-    gap: variables.$xl-gap;
-    margin-bottom: 100px;
+    gap: variables.$l-gap;
+    margin-bottom: 150px;
     
      h1{
+      color: variables.$secondery-color;
+      font-size: variables.$xl-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+    hr{
+      width: 100%;
+    background-color:  black;
+    }
+
+   h3{
+    color: variables.$secondery-color;
+      font-size: variables.$xl-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     
+    }
+    .donationoptions{
+      @include mixin.flex(row,wrap,center,center);
+      gap: variables.$xl-gap;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      
+      .amount{
+        @include mixin.flex(row,wrap,center,center);
+       input{
+          display: none;
+           }
+           label{
+              @include mixin.flex(row,wrap,center,center);
+             cursor: pointer;
+             font-size: variables.$m-fontsize;
+             font-weight: variables.$bold-fontweight;
+             color: #077431;
+             font-family: variables.$font-family;
+             background-color: white;
+             border: 1px solid black;
+             width: variables.$l-w;
+             height: 75px;
+
+             &:hover{
+                  background-color: variables.$primary-backgroundcolor;
+                  color: white;
+             }
+
+           }
+           input:checked + label {
+          background-color: variables.$primary-backgroundcolor;
+         color: white;
+      }
+    }
+  }
+    .donationbox{
+     
+       input{
+         width: 350px;
+        height: 70px;
+        border: 1px solid black;
+        font-size: variables.$m-fontsize;
+          font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+        text-align: center;      
+        &::placeholder{
+          font-size: variables.$m-fontsize;
+            font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+          }
+       }
+    }
+  }
+.sec2donation{
+    @include mixin.flex(column,wrap,center,center);
+    gap: variables.$m-gap;
+    margin-bottom: 150px;
+   h1{
+      color: variables.$secondery-color;
+      font-size: variables.$xl-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+    hr{
+      width: 53%;
+    background-color:  black;
+    }
+   .sec2donationcontainer{
+     @include mixin.flex(row,wrap,center,center);
+     gap: variables.$xxl-gap;
+    
+      .leftside{
+     @include mixin.flex(column,wrap,none,none);
+     gap: variables.$xxl-gap;
+   label{
+      font-size: variables.$l-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+   }
+     input{
+      width: 500px;
+     height: 80px;
+    border: 1px solid black;
+     font-size: variables.$m-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       text-align: center;     
+     &::placeholder{
+         font-size: variables.$m-fontsize;
+            font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+     }
+      }
+      .rightside{
+     @include mixin.flex(column,wrap,none,none);
+     gap: variables.$xxl-gap;
+   label{
+      font-size: variables.$l-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+   }
+     input{
+      width:500px;
+     height: 80px;
+    border: 1px solid black;
+     font-size: variables.$m-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       text-align: center;     
+     &::placeholder{
+         font-size: variables.$m-fontsize;
+            font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+     }
+      }
+   }
+}
+
+.sec3donation{
+   @include mixin.flex(column,wrap,center,center);
+   gap: variables.$m-gap;
+   margin-bottom: 150px;
+    h1{
       color: variables.$secondery-color;
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
@@ -830,14 +980,78 @@ header{
     background-color:  black;
     }
 
-   h3{
-    color: variables.$secondery-color;
+    .sec3donationcontainer{
+       @include mixin.flex(row,wrap,center,center);
+     gap: variables.$xxl-gap;
+
+           .sec3leftside{
+    @include mixin.flex(column,wrap,center,center);
+     gap: variables.$xxl-gap;
+     label{
       font-size: variables.$l-fontsize;
-      font-family: variables.$font-family;
+       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
-      position: relative;
-      right: 250px;
+   }
+     input{
+      width: 500px;
+     height: 80px;
+    border: 1px solid black;
+     font-size: variables.$m-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       text-align: center;     
+     &::placeholder{
+         font-size: variables.$m-fontsize;
+            font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+     }
     }
+    .sec3rightside{
+       @include mixin.flex(column,wrap,center,center);
+     gap: 89px;
+   
+        @include mixin.flex(column,wrap,center,center);
+     gap: 89px;
+       label{
+      font-size: variables.$l-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+         
+   }
+     input{
+      width: 500px;
+     height: 80px;
+    border: 1px solid black;
+     font-size: variables.$m-fontsize;
+       font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       text-align: center;     
+       position: relative;
+       bottom: 40px;
+     &::placeholder{
+         font-size: variables.$m-fontsize;
+            font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+     }
+     }
+     
+      button{
+          cursor: pointer;
+         width: 500px;
+          height: 80px;
+          background-color: variables.$primary-backgroundcolor;
+           font-family: variables.$font-family;
+          font-size: variables.$m-fontsize;
+          font-weight: variables.$bold-fontweight;
+            color: variables.$primary-color;
+          border: none;
+        
+        }
+    
+}
+}
+}
 }
    .servicesec2{
     background-image: url(../images/georgianature12.jpg);
@@ -1150,8 +1364,7 @@ hr{
       width: 100%;
       height: variables.$m-h;
       opacity: 0.6;
-    
-      @include mixin.flex(row,nowrap,center,center);
+     @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
 
@@ -1234,7 +1447,7 @@ p{
   .contactsec4container{
     width: 50%;
     height: 400px;
-    background-color: white;
+    background-color: variables.$primary-backgroundcolor;
     border-radius: 30px;
     border: 4px solid black;
     @include mixin.flex(column,wrap,center,center);
@@ -1245,7 +1458,7 @@ p{
       gap: variables.$m-gap;
 
       h1{
-        color: variables.$secondery-color;
+        color: variables.$primary-color;
         font-family: variables.$font-family;
         font-size:60px;
         font-weight: variables.$bold-fontweight;
@@ -1259,7 +1472,7 @@ p{
       gap: variables.$l-gap;
 
       span{
-         color: variables.$secondery-color;
+         color: variables.$primary-color;
         font-family: variables.$font-family;
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
@@ -1271,7 +1484,7 @@ p{
     @include mixin.flex(row,nowrap,none,none);
       gap: variables.$m-gap;
   h1{
-     color: variables.$secondery-color;
+     color: variables.$primary-color;
         font-family: variables.$font-family;
         font-size:variables.$xl-fontsize;
         font-weight: variables.$bold-fontweight
