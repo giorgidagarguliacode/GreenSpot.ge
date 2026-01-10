@@ -824,7 +824,7 @@ header{
   width: 100%;
 .sec1donation{
     @include mixin.flex(column,wrap,center,center);
-    gap: variables.$l-gap;
+    gap: variables.$xxl-gap;
     margin-bottom: 150px;
     
      h1{
@@ -836,6 +836,7 @@ header{
     hr{
       width: 100%;
     background-color:  black;
+    margin-bottom: 100px;
     }
 
    h3{
@@ -847,7 +848,7 @@ header{
     }
     .donationoptions{
       @include mixin.flex(row,wrap,center,center);
-      gap: variables.$xl-gap;
+      gap: variables.$xxl-gap;
       margin-top: 30px;
       margin-bottom: 30px;
       
@@ -880,27 +881,12 @@ header{
       }
     }
   }
-    .donationbox{
-     
-       input{
-         width: 350px;
-        height: 70px;
-        border: 1px solid black;
-        font-size: variables.$m-fontsize;
-          font-family: variables.$font-family;
-      font-weight: variables.$bold-fontweight;
-        text-align: center;      
-        &::placeholder{
-          font-size: variables.$m-fontsize;
-            font-family: variables.$font-family;
-      font-weight: variables.$bold-fontweight;
-          }
-       }
-    }
-  }
+}
+
+
 .sec2donation{
     @include mixin.flex(column,wrap,center,center);
-    gap: variables.$m-gap;
+    gap: variables.$xxl-gap;
     margin-bottom: 150px;
    h1{
       color: variables.$secondery-color;
@@ -909,7 +895,7 @@ header{
       font-weight: variables.$bold-fontweight;
      }
     hr{
-      width: 53%;
+      width: 100%;
     background-color:  black;
     }
    .sec2donationcontainer{
@@ -967,8 +953,8 @@ header{
 
 .sec3donation{
    @include mixin.flex(column,wrap,center,center);
-   gap: variables.$m-gap;
-   margin-bottom: 150px;
+   gap: variables.$xxl-gap;
+   margin-bottom: 70px;
     h1{
       color: variables.$secondery-color;
       font-size: variables.$xl-fontsize;
@@ -976,7 +962,7 @@ header{
       font-weight: variables.$bold-fontweight;
      }
     hr{
-      width: 53%;
+      width: 100%;
     background-color:  black;
     }
 
@@ -1484,7 +1470,7 @@ p{
     @include mixin.flex(row,nowrap,none,none);
       gap: variables.$m-gap;
   h1{
-     color: variables.$primary-color;
+        color: variables.$primary-color;
         font-family: variables.$font-family;
         font-size:variables.$xl-fontsize;
         font-weight: variables.$bold-fontweight
@@ -1493,3 +1479,202 @@ p{
         font-size: variables.$xl-fontsize;
       }
 }
+.ecomapsec2{
+    background-image: url(../images/georgianature18.webp);
+  @extend %sec2;
+    h1{
+       @extend  %sec2h1;
+}
+}
+.ecomapsec3{
+  @include mixin.flex(column,wrap,center,center);
+  gap: 70px;
+  margin-bottom: 100px;
+  .ecomapsec3container{
+      @include mixin.flex(row,nowrap,center,center);
+      gap: variables.$xxl-gap;
+
+      h1{
+        color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+      }
+      i{
+          font-size: 60px;
+      }
+  }
+  p{
+      color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+       
+  }
+}
+hr{
+  margin-bottom: 100px;
+}
+.littlecontainer{
+    @include mixin.flex(row,nowrap,center,center);
+      gap: variables.$xl-gap;
+     margin-bottom: 150px;
+      h1{
+        color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+      }
+      i{
+         font-size: 60px;
+      }
+}
+.ecomapsec4{
+   @include mixin.flex(column,wrap,flex-start,center);
+  gap: variables.$xxl-gap;
+  margin-bottom: 100px;
+    .frame1container{
+    @include mixin.flex(row,nowrap,flex-start,center);
+    }
+  h1{
+     margin-top: 20px;
+     color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+  }
+  ul{
+    line-height: 2;
+    
+    li{
+     
+        color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+   
+  }
+  hr{
+    margin-bottom: 100px;
+  }
+.ecomapsec5{
+    @include mixin.flex(column,nowrap,flex-start,center);
+    gap: variables.$xxl-gap;
+   .frame2container{
+    @include mixin.flex(row,nowrap,flex-start,center);
+  }
+    h1{
+     margin-top: 20px;
+     color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+  }
+  ul{
+    line-height: 3;
+    
+    li{
+     
+        color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+   
+}
+hr{
+  margin-top: 30px;
+   margin-bottom: 100px;
+}
+.ecomapsec6{
+   @include mixin.flex(column,nowrap,flex-start,center);
+    gap: variables.$xxl-gap;
+
+    .frame3container{
+         @include mixin.flex(row,nowrap,flex-start,center);
+    }
+      h1{
+     margin-top: 20px;
+     color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+  }
+  ul{
+    line-height: 3;
+    
+    li{
+     
+        color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+}
+hr{
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+.ecomapsec7{
+   @include mixin.flex(column,nowrap,flex-start,center);
+    gap: variables.$xxl-gap;
+      .frame4container{
+    @include mixin.flex(row,nowrap,flex-start,center);
+  }
+   h1{
+     margin-top: 20px;
+     color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+  }
+  ul{
+    line-height: 3;
+    
+    li{
+     
+        color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+}
+hr{
+   margin-top: 30px;
+   margin-bottom: 100px;
+}
+.ecomapsec8{
+   @include mixin.flex(column,nowrap,flex-start,center);
+    gap: variables.$xxl-gap;
+      .frame5container{
+    @include mixin.flex(row,nowrap,flex-start,center);
+  }
+   h1{
+     margin-top: 20px;
+     color: variables.$secondery-color;
+        font-size: 60px;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+  }
+  ul{
+    line-height: 3;
+    
+    li{
+     
+        color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+}
+hr{
+   margin-top: 30px;
+   margin-bottom: 150px;
+}
+
