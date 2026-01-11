@@ -875,7 +875,7 @@ header{
              }
 
            }
-           input:checked + label {
+          input:checked + label {
           background-color: variables.$primary-backgroundcolor;
          color: white;
       }
@@ -936,7 +936,7 @@ header{
      input{
       width:500px;
      height: 80px;
-    border: 1px solid black;
+    border: 1px solid black; 
      font-size: variables.$m-fontsize;
        font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
@@ -1121,6 +1121,7 @@ header{
       ul{
         @include mixin.flex(column,wrap,none,none);
         gap: variables.$l-gap;
+        list-style-type: disc;
        li{
          color: variables.$secondery-color;
           font-size: variables.$m-fontsize;
@@ -1677,4 +1678,260 @@ hr{
    margin-top: 30px;
    margin-bottom: 150px;
 }
+.ecoadvicesec2{
+  background-image: url(../images/georgiaanature19.webp);
+    @extend %sec2;
+    h1{
+       @extend %sec2h1;
+    }
+}
+.ecoadvicesec3{
+  @include mixin.flex(column,wrap,center,center);
+  gap: variables.$xxl-gap;
 
+  .ecoadvicesec3container{
+     @include mixin.flex(row,nowrap,center,center);
+     gap: variables.$l-gap;
+
+     h1{
+      font-size: 60px;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+    }
+    i{
+         font-size: 60px;
+    }
+  }
+  p{
+    width: 70%;
+    line-height: 1.8;
+  }
+}
+
+.dividerhr{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.ecoadvicesec4{
+  @include mixin.flex(column,wrap,center,center);
+  gap: variables.$s-gap;
+ 
+  .ecoadvicesec4container{
+    @include mixin.flex(row,nowrap,center,center);
+    gap: variables.$l-gap;
+
+    h1{
+       font-size: variables.$xl-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+    }
+    i{
+      font-size: 55px;
+    }
+  }
+  hr{
+     width: 60%;
+    }
+  p{
+      color: variables.$secondery-color;
+        font-size: variables.$l-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+  }
+  ul{
+ @include mixin.flex(column,nowrap,none,none);
+ gap: variables.$l-gap;
+ list-style-type: disc;
+    li{
+   color: variables.$secondery-color;
+        font-size: variables.$m-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+    }
+  }
+  .ecoadvicesec4container2{
+    margin-top: 10px;
+    margin-right: 70px;
+    @include mixin.flex(row,nowrap,center,center);
+    gap: variables.$l-gap;
+
+    i{
+      font-size: variables.$xl-fontsize;
+    }
+    p{
+      color: variables.$secondery-color;
+        font-size: variables.$m-fontsize;
+        font-weight: variables.$bold-fontweight;
+        font-family: variables.$font-family;
+       padding-top: 110px;
+       width: 100%;
+    }
+  }
+}
+hr{
+   width: 60%;
+}
+.hrcap{
+  width: 100%;
+}
+.ecoadvicelastsec{
+  @include mixin.flex(column,wrap,center,center);
+  gap: variables.$xxl-gap;
+  margin-bottom: 200px;
+
+  .ecoadvicelastseccontainer{
+      @include mixin.flex(row,nowrap,center,center);
+  gap: variables.$l-gap;
+
+  h3{
+    font-size: variables.$xl-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+  }
+  i{
+     font-size: 60px;
+  }
+  }
+  p{
+    width: 65%;
+  }
+}
+.ecoeducationsec2{
+  background-image: url(../images/georgianature20.jpg);
+    @extend %sec2;
+    h1{
+       @extend %sec2h1;
+    }
+}
+.ecoeducationsec3{
+   @include mixin.flex(column,wrap,center,center);
+  gap: variables.$xxl-gap;
+
+  .ecoeducationsec3container{
+     @include mixin.flex(row,wrap,flex-start,center);
+     gap: variables.$l-gap;
+
+       h1{
+      font-size: 60px;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+    }
+    i{
+         font-size: 60px;
+    }
+  }
+  p{
+    width: 70%;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+  }
+.ecoeducationsec4{
+  @include mixin.flex(column,wrap,center,space-between);
+ 
+ .ecoeducationcontainersec4{
+    @include mixin.flex(row,nowrap,flex-start,center);
+    
+    .leftcontainer1{
+       @include mixin.flex(column,wrap,center,center);
+       gap: variables.$xl-gap;
+   .smallcontainer{
+      @include mixin.flex(row,nowrap,center,center);
+      gap: variables.$s-gap;
+       h1{
+      font-size: variables.$l-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       }
+       i{
+         font-size: variables.$l-fontsize;
+       }
+    }
+    .littleline{
+      width: variables.$xxl-w;
+      height: 7px;
+      background-color: variables.$primary-backgroundcolor;
+      
+    }
+    p{
+      font-family: variables.$font-family;
+      font-size: variables.$m-fontsize;
+      font-weight: variables.$bold-fontweight;
+      line-height: 2;
+      width:75%;
+    }
+  }
+}
+ .rightcontainer1{
+  background-image: url(../images/georgianature21.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+ }
+ .leftcontainer2{
+   background-image: url(../images/georgianature22.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70.7%;
+  height: 400px;
+ }
+ .rightcontainer2{
+  @include mixin.flex(column,wrap,center,center);
+       gap: variables.$xl-gap;
+
+         .smallcontainer{
+      @include mixin.flex(row,nowrap,center,center);
+      gap: variables.$s-gap;
+       h1{
+      font-size: variables.$l-fontsize;
+      font-family: variables.$font-family;
+      font-weight: variables.$bold-fontweight;
+       }
+       i{
+         font-size: variables.$l-fontsize;
+       }
+    }
+    .littleline{
+      width: variables.$xxl-w;
+      height: 7px;
+      background-color: variables.$primary-backgroundcolor;
+      
+    }
+    p{
+      font-family: variables.$font-family;
+      font-size: variables.$m-fontsize;
+      font-weight: variables.$bold-fontweight;
+      line-height: 2;
+      width:75%;
+    }
+  }
+  .rightcontainer3{
+     background-image: url(../images/georgianature23.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 52.2%;
+  height: 400px;
+  position: relative;
+  left: 12px;
+  }
+  .leftcontainer4{
+    background-image: url(../images/georgianature24.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:47.8%;
+  height: 400px;
+  }
+ }
+ .ecoeducationmain{
+  margin-bottom: 80px;
+ }
