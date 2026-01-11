@@ -117,7 +117,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   cursor: pointer;
 }
 
-.sec2, .aboutussec2, .servicesec2, .newssec2, .contactsec2, .ecomapsec2 {
+.sec2, .aboutussec2, .servicesec2, .newssec2, .contactsec2, .ecomapsec2, .ecoadvicesec2, .ecoeducationsec2 {
   height: 800px;
   margin-bottom: 150px;
   display: flex;
@@ -126,7 +126,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   justify-content: center;
   align-items: center;
 }
-.sec2 h1, .aboutussec2 h1, .servicesec2 h1, .newssec2 h1, .contactsec2 h1, .ecomapsec2 h1 {
+.sec2 h1, .aboutussec2 .sec2 h1, .sec2 .aboutussec2 h1, .servicesec2 .sec2 h1, .sec2 .servicesec2 h1, .newssec2 .sec2 h1, .sec2 .newssec2 h1, .contactsec2 .sec2 h1, .sec2 .contactsec2 h1, .ecomapsec2 .sec2 h1, .sec2 .ecomapsec2 h1, .ecoadvicesec2 .sec2 h1, .sec2 .ecoadvicesec2 h1, .ecoeducationsec2 .sec2 h1, .sec2 .ecoeducationsec2 h1, .sec2 .aboutussec2 h1, .aboutussec2 .sec2 h1, .aboutussec2 h1, .servicesec2 .aboutussec2 h1, .aboutussec2 .servicesec2 h1, .newssec2 .aboutussec2 h1, .aboutussec2 .newssec2 h1, .contactsec2 .aboutussec2 h1, .aboutussec2 .contactsec2 h1, .ecomapsec2 .aboutussec2 h1, .aboutussec2 .ecomapsec2 h1, .ecoadvicesec2 .aboutussec2 h1, .aboutussec2 .ecoadvicesec2 h1, .ecoeducationsec2 .aboutussec2 h1, .aboutussec2 .ecoeducationsec2 h1, .sec2 .servicesec2 h1, .servicesec2 .sec2 h1, .aboutussec2 .servicesec2 h1, .servicesec2 .aboutussec2 h1, .servicesec2 h1, .newssec2 .servicesec2 h1, .servicesec2 .newssec2 h1, .contactsec2 .servicesec2 h1, .servicesec2 .contactsec2 h1, .ecomapsec2 .servicesec2 h1, .servicesec2 .ecomapsec2 h1, .ecoadvicesec2 .servicesec2 h1, .servicesec2 .ecoadvicesec2 h1, .ecoeducationsec2 .servicesec2 h1, .servicesec2 .ecoeducationsec2 h1, .sec2 .newssec2 h1, .newssec2 .sec2 h1, .aboutussec2 .newssec2 h1, .newssec2 .aboutussec2 h1, .servicesec2 .newssec2 h1, .newssec2 .servicesec2 h1, .newssec2 h1, .contactsec2 .newssec2 h1, .newssec2 .contactsec2 h1, .ecomapsec2 .newssec2 h1, .newssec2 .ecomapsec2 h1, .ecoadvicesec2 .newssec2 h1, .newssec2 .ecoadvicesec2 h1, .ecoeducationsec2 .newssec2 h1, .newssec2 .ecoeducationsec2 h1, .sec2 .contactsec2 h1, .contactsec2 .sec2 h1, .aboutussec2 .contactsec2 h1, .contactsec2 .aboutussec2 h1, .servicesec2 .contactsec2 h1, .contactsec2 .servicesec2 h1, .newssec2 .contactsec2 h1, .contactsec2 .newssec2 h1, .contactsec2 h1, .ecomapsec2 .contactsec2 h1, .contactsec2 .ecomapsec2 h1, .ecoadvicesec2 .contactsec2 h1, .contactsec2 .ecoadvicesec2 h1, .ecoeducationsec2 .contactsec2 h1, .contactsec2 .ecoeducationsec2 h1, .sec2 .ecomapsec2 h1, .ecomapsec2 .sec2 h1, .aboutussec2 .ecomapsec2 h1, .ecomapsec2 .aboutussec2 h1, .servicesec2 .ecomapsec2 h1, .ecomapsec2 .servicesec2 h1, .newssec2 .ecomapsec2 h1, .ecomapsec2 .newssec2 h1, .contactsec2 .ecomapsec2 h1, .ecomapsec2 .contactsec2 h1, .ecomapsec2 h1, .ecoadvicesec2 .ecomapsec2 h1, .ecomapsec2 .ecoadvicesec2 h1, .ecoeducationsec2 .ecomapsec2 h1, .ecomapsec2 .ecoeducationsec2 h1, .sec2 .ecoadvicesec2 h1, .ecoadvicesec2 .sec2 h1, .aboutussec2 .ecoadvicesec2 h1, .ecoadvicesec2 .aboutussec2 h1, .servicesec2 .ecoadvicesec2 h1, .ecoadvicesec2 .servicesec2 h1, .newssec2 .ecoadvicesec2 h1, .ecoadvicesec2 .newssec2 h1, .contactsec2 .ecoadvicesec2 h1, .ecoadvicesec2 .contactsec2 h1, .ecomapsec2 .ecoadvicesec2 h1, .ecoadvicesec2 .ecomapsec2 h1, .ecoadvicesec2 h1, .ecoeducationsec2 .ecoadvicesec2 h1, .ecoadvicesec2 .ecoeducationsec2 h1, .sec2 .ecoeducationsec2 h1, .ecoeducationsec2 .sec2 h1, .aboutussec2 .ecoeducationsec2 h1, .ecoeducationsec2 .aboutussec2 h1, .servicesec2 .ecoeducationsec2 h1, .ecoeducationsec2 .servicesec2 h1, .newssec2 .ecoeducationsec2 h1, .ecoeducationsec2 .newssec2 h1, .contactsec2 .ecoeducationsec2 h1, .ecoeducationsec2 .contactsec2 h1, .ecomapsec2 .ecoeducationsec2 h1, .ecoeducationsec2 .ecomapsec2 h1, .ecoadvicesec2 .ecoeducationsec2 h1, .ecoeducationsec2 .ecoadvicesec2 h1, .ecoeducationsec2 h1 {
   color: white;
   font-size: 30px;
   font-family: "Arial GEO", sans-serif;
@@ -1465,6 +1465,7 @@ p {
   justify-content: none;
   align-items: none;
   gap: 30px;
+  list-style-type: disc;
 }
 .servicesections .servicesectionscontainer .servicesectionsrightbox ul li {
   color: black;
@@ -2121,4 +2122,310 @@ hr {
 hr {
   margin-top: 30px;
   margin-bottom: 150px;
+}
+
+.ecoadvicesec2 {
+  background-image: url(../images/georgiaanature19.webp);
+}
+.ecoadvicesec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.ecoadvicesec3 .ecoadvicesec3container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.ecoadvicesec3 .ecoadvicesec3container h1 {
+  font-size: 60px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoadvicesec3 .ecoadvicesec3container i {
+  font-size: 60px;
+}
+.ecoadvicesec3 p {
+  width: 70%;
+  line-height: 1.8;
+}
+
+.dividerhr {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.ecoadvicesec4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ecoadvicesec4 .ecoadvicesec4container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.ecoadvicesec4 .ecoadvicesec4container h1 {
+  font-size: 40px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoadvicesec4 .ecoadvicesec4container i {
+  font-size: 55px;
+}
+.ecoadvicesec4 hr {
+  width: 60%;
+}
+.ecoadvicesec4 p {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
+.ecoadvicesec4 ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 30px;
+  list-style-type: disc;
+}
+.ecoadvicesec4 ul li {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+}
+.ecoadvicesec4 .ecoadvicesec4container2 {
+  margin-top: 10px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.ecoadvicesec4 .ecoadvicesec4container2 i {
+  font-size: 40px;
+}
+.ecoadvicesec4 .ecoadvicesec4container2 p {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Arial GEO", sans-serif;
+  padding-top: 110px;
+  width: 100%;
+}
+
+hr {
+  width: 60%;
+}
+
+.hrcap {
+  width: 100%;
+}
+
+.ecoadvicelastsec {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 200px;
+}
+.ecoadvicelastsec .ecoadvicelastseccontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.ecoadvicelastsec .ecoadvicelastseccontainer h3 {
+  font-size: 40px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoadvicelastsec .ecoadvicelastseccontainer i {
+  font-size: 60px;
+}
+.ecoadvicelastsec p {
+  width: 65%;
+}
+
+.ecoeducationsec2 {
+  background-image: url(../images/georgianature20.jpg);
+}
+.ecoeducationsec3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.ecoeducationsec3 .ecoeducationsec3container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.ecoeducationsec3 .ecoeducationsec3container h1 {
+  font-size: 60px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoeducationsec3 .ecoeducationsec3container i {
+  font-size: 60px;
+}
+.ecoeducationsec3 p {
+  width: 70%;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.ecoeducationsec4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .smallcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .smallcontainer h1 {
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .smallcontainer i {
+  font-size: 30px;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .littleline {
+  width: 250px;
+  height: 7px;
+  background-color: #077431;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 p {
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  width: 75%;
+}
+.ecoeducationsec4 .rightcontainer1 {
+  background-image: url(../images/georgianature21.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.ecoeducationsec4 .leftcontainer2 {
+  background-image: url(../images/georgianature22.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70.7%;
+  height: 400px;
+}
+.ecoeducationsec4 .rightcontainer2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.ecoeducationsec4 .rightcontainer2 .smallcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ecoeducationsec4 .rightcontainer2 .smallcontainer h1 {
+  font-size: 30px;
+  font-family: "Arial GEO", sans-serif;
+  font-weight: 700;
+}
+.ecoeducationsec4 .rightcontainer2 .smallcontainer i {
+  font-size: 30px;
+}
+.ecoeducationsec4 .rightcontainer2 .littleline {
+  width: 250px;
+  height: 7px;
+  background-color: #077431;
+}
+.ecoeducationsec4 .rightcontainer2 p {
+  font-family: "Arial GEO", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  width: 75%;
+}
+.ecoeducationsec4 .rightcontainer3 {
+  background-image: url(../images/georgianature23.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 52.2%;
+  height: 400px;
+  position: relative;
+  left: 12px;
+}
+.ecoeducationsec4 .leftcontainer4 {
+  background-image: url(../images/georgianature24.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 47.8%;
+  height: 400px;
+}
+
+.ecoeducationmain {
+  margin-bottom: 80px;
 }/*# sourceMappingURL=styles.css.map */
