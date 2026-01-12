@@ -186,7 +186,7 @@ footer .footercontainer1 .footernavigation .footernav1 nav div a, footer .footer
 header .headerdiv {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 45px;
@@ -201,18 +201,200 @@ header .headerdiv h1 {
 header .headerdiv i {
   font-size: 30px;
 }
+@media (max-width: 1440px) {
+  header .headerdiv {
+    gap: 80px;
+  }
+}
+@media (max-width: 1300px) {
+  header .headerdiv {
+    gap: 40px;
+  }
+  header .headerdiv h1 {
+    font-size: 25px;
+  }
+  header .headerdiv i {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1020px) {
+  header .regitrationbutton {
+    height: 60px;
+    width: 170px;
+    font-size: 17px;
+  }
+  header .headerdiv {
+    gap: 40px;
+  }
+  header .headerdiv h1 {
+    font-size: 20px;
+  }
+  header .headerdiv i {
+    font-size: 20px;
+  }
+  header .donationbutton {
+    height: 60px;
+    width: 170px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 850px) {
+  header .regitrationbutton {
+    height: 60px;
+    width: 150px;
+    font-size: 15px;
+  }
+  header .headerdiv {
+    gap: 30px;
+  }
+  header .headerdiv h1 {
+    font-size: 20px;
+  }
+  header .headerdiv i {
+    font-size: 20px;
+  }
+  header .donationbutton {
+    height: 60px;
+    width: 150px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 800px) {
+  header .regitrationbutton {
+    height: 60px;
+    width: 100px;
+    font-size: 13px;
+  }
+  header .donationbutton {
+    height: 60px;
+    width: 100px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 690px) {
+  header .headerdiv {
+    gap: 20px;
+  }
+  header .headerdiv h1 {
+    font-size: 20px;
+  }
+  header .headerdiv i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 650px) {
+  header .headerdiv {
+    gap: 20px;
+  }
+  header .headerdiv h1 {
+    font-size: 17px;
+  }
+  header .headerdiv i {
+    font-size: 17px;
+  }
+}
+@media (max-width: 590px) {
+  header .headerdiv {
+    gap: 10px;
+  }
+  header .headerdiv h1 {
+    font-size: 16px;
+  }
+  header .headerdiv i {
+    font-size: 16px;
+  }
+}
+@media (max-width: 550px) {
+  header .regitrationbutton {
+    display: none;
+  }
+  header .headerdiv {
+    gap: 20px;
+  }
+  header .headerdiv h1 {
+    font-size: 16px;
+  }
+  header .headerdiv i {
+    font-size: 16px;
+  }
+  header .donationbutton {
+    height: 50px;
+    width: 150px;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+  }
+}
+@media (max-width: 500px) {
+  header .headerdiv h1 {
+    font-size: 16px;
+  }
+  header .headerdiv i {
+    display: none;
+  }
+  header .donationbutton {
+    height: 40px;
+    width: 150px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+  }
+}
+@media (max-width: 450px) {
+  header .headerdiv h1 {
+    font-size: 15px;
+  }
+  header .donationbutton {
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+  }
+}
+@media (max-width: 400px) {
+  header .headerdiv h1 {
+    font-size: 13px;
+  }
+  header .donationbutton {
+    height: 35px;
+    width: 100px;
+    font-size: 10px;
+    position: relative;
+    top: 14px;
+  }
+}
+@media (max-width: 350px) {
+  header .headerdiv h1 {
+    font-size: 10px;
+  }
+  header .donationbutton {
+    height: 35px;
+    width: 100px;
+    font-size: 10px;
+    position: relative;
+    top: 14px;
+  }
+}
+
 .sec1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: none;
+  justify-content: center;
   align-items: none;
   padding-top: 50px;
   margin-bottom: 100px;
 }
+@media (max-width: 1220px) {
+  .sec1 {
+    padding-top: 0;
+    margin-bottom: 70px;
+  }
+}
 .sec1 img {
   width: 150px;
-  margin: 0 70px 0 140px;
+  margin: 0 70px 0 0;
 }
 .sec1 .divider {
   height: 150px;
@@ -233,6 +415,172 @@ header .headerdiv i {
   color: white;
   font-size: 20px;
 }
+@media (max-width: 1700px) {
+  .sec1 img {
+    margin: 0 50px 0 100px;
+  }
+  .sec1 .divider {
+    margin-right: 70px;
+  }
+  .sec1 nav {
+    gap: 50px;
+  }
+}
+@media (max-width: 1600px) {
+  .sec1 img {
+    margin: 0 30px 0 80px;
+  }
+  .sec1 .divider {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1520px) {
+  .sec1 nav {
+    gap: 40px;
+  }
+}
+@media (max-width: 1480px) {
+  .sec1 img {
+    margin: 0 30px 0 50px;
+    width: 130px;
+  }
+  .sec1 .divider {
+    margin-right: 40px;
+    height: 140px;
+  }
+}
+@media (max-width: 1440px) {
+  .sec1 nav {
+    gap: 30px;
+  }
+}
+@media (max-width: 1400px) {
+  .sec1 nav {
+    gap: 25px;
+  }
+  .sec1 nav a i {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 1370px) {
+  .sec1 nav {
+    gap: 30px;
+  }
+  .sec1 nav a button {
+    font-size: 18px;
+    width: 180px;
+  }
+  .sec1 nav a i {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1300px) {
+  .sec1 nav {
+    gap: 20px;
+  }
+}
+@media (max-width: 1250px) {
+  .sec1 img {
+    margin: 0 30px 0 30px;
+  }
+  .sec1 .divider {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 1220px) {
+  .sec1 .divider {
+    display: none;
+  }
+  .sec1 img {
+    display: none;
+  }
+  .sec1 nav {
+    gap: 30px;
+  }
+  .sec1 nav a button {
+    font-size: 18px;
+    width: 180px;
+  }
+  .sec1 nav a i {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1050px) {
+  .sec1 nav {
+    gap: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .sec1 nav a button {
+    width: 150px;
+    height: 70px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 850px) {
+  .sec1 nav a button {
+    width: 130px;
+    height: 65px;
+    font-size: 13px;
+  }
+  .sec1 nav a i {
+    font-size: 13px;
+  }
+}
+@media (max-width: 750px) {
+  .sec1 nav {
+    gap: 10px;
+  }
+}
+@media (max-width: 715px) {
+  .sec1 nav a button {
+    width: 110px;
+    height: 65px;
+    font-size: 13px;
+  }
+  .sec1 nav a i {
+    display: none;
+  }
+}
+@media (max-width: 610px) {
+  .sec1 nav a button {
+    width: 100px;
+    height: 55px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 560px) {
+  .sec1 nav a button {
+    width: 80px;
+    height: 50px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 460px) {
+  .sec1 nav a button {
+    width: 70px;
+    height: 50px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 415px) {
+  .sec1 nav {
+    gap: 5px;
+  }
+  .sec1 nav a button {
+    width: 70px;
+    height: 50px;
+    font-size: 9px;
+  }
+}
+@media (max-width: 390px) {
+  .sec1 nav a button {
+    width: 60px;
+    height: 50px;
+    font-size: 7px;
+  }
+}
+
 .sec2 {
   background-image: url(../images/georgianature1.jpg);
 }
