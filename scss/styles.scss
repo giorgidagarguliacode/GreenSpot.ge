@@ -488,9 +488,90 @@ header{
 .sec2{
     background-image: url(../images/georgianature1.jpg);
   @extend %sec2;
+    @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend  %sec2h1;
+       
 }
+  @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
+    }
 }
 .sec3{
     margin-bottom: 200px;
@@ -546,6 +627,7 @@ header{
         }
       }
     }
+  
 }
 .sec4{
     margin-bottom: 150px;
@@ -859,8 +941,88 @@ header{
  .aboutussec2{
     background-image: url(../images/georgianature6.jpeg);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
  }
 
@@ -1461,8 +1623,88 @@ header{
    .servicesec2{
     background-image: url(../images/georgianature12.jpg);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
  }
  .servicesec3{
@@ -1588,8 +1830,88 @@ hr{
  .newssec2{
     background-image: url(../images/georgianature16.webp);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
  }
  .newssec3{
@@ -1809,8 +2131,88 @@ hr{
 .contactsec2{
     background-image: url(../images/georgianature17.webp);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
  }
  .contactsec3{
@@ -1902,9 +2304,89 @@ p{
 .ecomapsec2{
     background-image: url(../images/georgianature18.webp);
   @extend %sec2;
+   @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend  %sec2h1;
 }
+ @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
+    }
 }
 .ecomapsec3{
   @include mixin.flex(column,wrap,center,center);
@@ -2100,8 +2582,88 @@ hr{
 .ecoadvicesec2{
   background-image: url(../images/georgiaanature19.webp);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
 }
 .ecoadvicesec3{
@@ -2223,8 +2785,88 @@ hr{
 .ecoeducationsec2{
   background-image: url(../images/georgianature20.jpg);
     @extend %sec2;
+     @media(max-width: 1100px){
+       height: 700px;
+    }
+     @media(max-width: 1000px){
+    
+      height: 650px;
+      
+     }
+       @media(max-width: 820px){
+          height: 600px;
+       }
+       @media(max-width: 650px){
+          height: 550px;
+       }
+       @media(max-width: 520px){
+         height: 500px;
+       }
+       @media(max-width: 400px){
+       height: 400px;
+       }
     h1{
        @extend %sec2h1;
+    }
+     @media(max-width: 1400px){
+      h1{
+        font-size:25px;
+      }
+    }
+    @media(max-width: 1100px){
+      h1{
+        font-size:23px;
+      }
+    }
+    @media(max-width: 1000px){
+      h1{
+        font-size:21px;
+      }
+    }
+     @media(max-width: 900px){
+       h1{
+        font-size:19px;
+      }
+     }
+       @media(max-width: 820px){
+       h1{
+        font-size:17px;
+      }
+     }
+        @media(max-width: 730px){
+       h1{
+        font-size:15px;
+      }
+}
+@media(max-width: 650px){
+       h1{
+        font-size:13px;
+      }
+}
+@media(max-width: 560px){
+       h1{
+        font-size:12px;
+      }
+}
+@media(max-width: 520px){
+       h1{
+        font-size:variables.$s-fontsize;
+      }
+}
+@media(max-width: 440px){
+       h1{
+        font-size:9px;
+      }
+}
+       @media(max-width: 400px){
+        h1{
+        font-size:8px;
+      }
+       }
+         @media(max-width: 350px){
+        h1{
+        font-size:7px;
+      }
     }
 }
 .ecoeducationsec3{
