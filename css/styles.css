@@ -133,7 +133,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   font-weight: 700;
 }
 
-.sec3 .sec3div .sec3container2 .sec3containernav div button {
+.sec3 .sec3container2 .sec3containernav div button {
   cursor: pointer;
   width: 250px;
   height: 60px;
@@ -148,7 +148,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   bottom: 10px;
 }
 
-.sec3 .sec3div .sec3container2 .sec3containernav div a, .sec4 .sec4container .sec4leftcontainer button a {
+.sec3 .sec3container2 .sec3containernav div button a, .sec4 .sec4container .sec4leftcontainer button a {
   color: white;
   font-family: "Arial GEO", sans-serif;
   font-size: 20px;
@@ -156,7 +156,7 @@ header .regitrationbutton .registrationa, header .donationbutton .donationa {
   cursor: pointer;
 }
 
-.sec3 .sec3div .sec3container2 p, .sec4 .sec4container .sec4leftcontainer p {
+.sec3 .sec3container2 p, .sec4 .sec4container .sec4leftcontainer p {
   color: black;
   font-size: 30px;
   font-family: "Arial GEO", sans-serif;
@@ -707,10 +707,28 @@ header .headerdiv i {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.sec3 .sec3div .sec3container2 p {
+@media (max-width: 560px) {
+  .sec3 .sec3div .sec3container1 {
+    width: 100%;
+  }
+}
+.sec3 .sec3container2 p {
   margin-bottom: 65px;
 }
-.sec3 .sec3div .sec3container2 .sec3containernav {
+@media (max-width: 560px) {
+  .sec3 .sec3container2 p {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .sec3 .sec3container2 p {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.sec3 .sec3container2 .sec3containernav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -718,7 +736,7 @@ header .headerdiv i {
   align-items: none;
   gap: 50px;
 }
-.sec3 .sec3div .sec3container2 .sec3containernav div {
+.sec3 .sec3container2 .sec3containernav div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -726,9 +744,68 @@ header .headerdiv i {
   align-items: none;
   gap: 50px;
 }
-.sec3 .sec3div .sec3container2 .sec3containernav div i {
+@media (max-width: 560px) {
+  .sec3 .sec3container2 .sec3containernav div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 370px) {
+  .sec3 .sec3container2 .sec3containernav div {
+    gap: 30px;
+  }
+}
+.sec3 .sec3container2 .sec3containernav div i {
   font-size: 40px;
 }
+@media (max-width: 560px) {
+  .sec3 .sec3container2 .sec3containernav div i {
+    font-size: 43px;
+    position: relative;
+    bottom: 5px;
+  }
+}
+@media (max-width: 560px) {
+  .sec3 .sec3container2 .sec3containernav div button {
+    width: 200px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 1700px) {
+  .sec3 hr {
+    width: 100%;
+  }
+}
+@media (max-width: 1700px) {
+  .sec3 hr {
+    width: 90%;
+  }
+}
+@media (max-width: 1240px) {
+  .sec3 hr {
+    width: 95%;
+  }
+}
+@media (max-width: 1114px) {
+  .sec3 hr {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .sec3 h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 676px) {
+  .sec3 h1 {
+    line-height: 1.5;
+    font-size: 30px;
+  }
+}
+
 .sec4 {
   margin-bottom: 150px;
 }
@@ -740,6 +817,16 @@ header .headerdiv i {
   margin-bottom: 70px;
   font-family: "Arial GEO", sans-serif;
 }
+@media (max-width: 1250px) {
+  .sec4 h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1073px) {
+  .sec4 h1 {
+    line-height: 1.5;
+  }
+}
 .sec4 hr {
   width: 63%;
   margin-bottom: 100px;
@@ -747,7 +834,7 @@ header .headerdiv i {
 .sec4 .sec4container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: none;
   margin-bottom: 100px;
@@ -761,16 +848,94 @@ header .headerdiv i {
   align-items: none;
   gap: 50px;
 }
+@media (max-width: 1300px) {
+  .sec4 .sec4container .sec4leftcontainer p {
+    font-size: 27px;
+  }
+}
+@media (max-width: 1206px) {
+  .sec4 .sec4container .sec4leftcontainer p {
+    text-align: center;
+    left: 30px;
+  }
+}
+@media (max-width: 589px) {
+  .sec4 .sec4container .sec4leftcontainer p {
+    font-size: 20px;
+    left: 0;
+    width: 100%;
+  }
+}
 .sec4 .sec4container .sec4leftcontainer span {
   color: black;
   font-size: 30px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 600px) {
+  .sec4 .sec4container .sec4leftcontainer span {
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .sec4 .sec4container .sec4leftcontainer span {
+    font-size: 20px;
+    text-align: center;
+    left: 0;
+  }
+}
 .sec4 .sec4container .sec4leftcontainer i {
   font-size: 30px;
   position: relative;
   left: 105px;
+}
+@media (max-width: 1206px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 250px;
+  }
+}
+@media (max-width: 560px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 230px;
+  }
+}
+@media (max-width: 511px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 220px;
+  }
+}
+@media (max-width: 480px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 210px;
+  }
+}
+@media (max-width: 450px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 190px;
+  }
+}
+@media (max-width: 440px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 180px;
+  }
+}
+@media (max-width: 400px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 160px;
+  }
+}
+@media (max-width: 380px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 145px;
+  }
+}
+@media (max-width: 330px) {
+  .sec4 .sec4container .sec4leftcontainer i {
+    left: 125px;
+  }
 }
 .sec4 .sec4container .sec4leftcontainer button {
   cursor: pointer;
@@ -784,6 +949,52 @@ header .headerdiv i {
   font-weight: 700;
   color: white;
 }
+@media (max-width: 1206px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    position: relative;
+    left: 145px;
+  }
+}
+@media (max-width: 560px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 125px;
+  }
+}
+@media (max-width: 511px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 115px;
+  }
+}
+@media (max-width: 480px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 105px;
+  }
+}
+@media (max-width: 450px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 90px;
+  }
+}
+@media (max-width: 440px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 75px;
+  }
+}
+@media (max-width: 400px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 55px;
+  }
+}
+@media (max-width: 380px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 40px;
+  }
+}
+@media (max-width: 330px) {
+  .sec4 .sec4container .sec4leftcontainer button {
+    left: 25px;
+  }
+}
 .sec4 .sec4container .sec4rightcontainer {
   width: 500px;
   height: 600px;
@@ -791,6 +1002,46 @@ header .headerdiv i {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (max-width: 560px) {
+  .sec4 .sec4container .sec4rightcontainer {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .sec4 h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1700px) {
+  .sec4 hr {
+    width: 100%;
+  }
+}
+@media (max-width: 1700px) {
+  .sec4 hr {
+    width: 90%;
+  }
+}
+@media (max-width: 1240px) {
+  .sec4 hr {
+    width: 95%;
+  }
+}
+@media (max-width: 1114px) {
+  .sec4 hr {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .sec4 h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 800px) {
+  .sec4 h1 {
+    font-size: 25px;
+  }
 }
 
 .sec5 {
@@ -811,8 +1062,18 @@ header .headerdiv i {
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
 }
+@media (max-width: 480px) {
+  .sec5 h1 {
+    font-size: 40px;
+  }
+}
 .sec5 i {
   font-size: 40px;
+}
+@media (max-width: 480px) {
+  .sec5 i {
+    font-size: 35px;
+  }
 }
 
 .sec6 {
@@ -870,10 +1131,20 @@ header .headerdiv i {
   width: 800px;
   height: 400px;
 }
+@media (max-width: 840px) {
+  .sec6 .sec6container .topbox .topboxright {
+    width: 730px;
+  }
+}
+@media (max-width: 800px) {
+  .sec6 .sec6container .topbox .topboxright {
+    width: 650px;
+  }
+}
 .sec6 .sec6container .bottombox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   align-items: none;
 }
@@ -884,6 +1155,16 @@ header .headerdiv i {
   background-size: cover;
   width: 800px;
   height: 400px;
+}
+@media (max-width: 840px) {
+  .sec6 .sec6container .bottombox .bottomboxleft {
+    width: 730px;
+  }
+}
+@media (max-width: 800px) {
+  .sec6 .sec6container .bottombox .bottomboxleft {
+    width: 650px;
+  }
 }
 .sec6 .sec6container .bottombox .bottomboxright {
   width: 800px;
