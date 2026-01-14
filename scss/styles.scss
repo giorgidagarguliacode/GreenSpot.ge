@@ -1190,18 +1190,11 @@ header{
 
 }
   
- .lasthr{
-    display: block;
-     border: none;
-      height: 2px;
-     background-color: variables.$primary-color;
-      width: 75%;
-      margin-bottom: 50px;
-      margin-top: 15px;
-}
+ 
  .aboutussec2{
     background-image: url(../images/georgianature6.jpeg);
     @extend %sec2;
+  
      @media(max-width: 1100px){
        height: 700px;
     }
