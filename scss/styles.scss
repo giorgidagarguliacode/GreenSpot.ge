@@ -1473,17 +1473,36 @@ header{
    .aboutussec3info{
       @include mixin.flex(row,nowrap,center,center);
       gap: variables.$xl-gap;
+       @media (max-width: 400px){
+          gap: variables.$m-gap;
+       }
    }
    h1{
        color: variables.$secondery-color;
       font-size: 60px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+        @media (max-width: 750px){
+          font-size:53px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
       i{
           font-size: 60px;
+             @media (max-width: 750px){
+          font-size:53px;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
-    }
+      }
+    
     p{
         color: variables.$secondery-color;
           font-size: variables.$l-fontsize;
@@ -1491,6 +1510,12 @@ header{
           line-height: 1.3;
         font-family:variables.$font-family;
         width: 65%;
+           @media (max-width: 550px){
+          font-size:25px;
+           }
+               @media (max-width: 360px){
+          font-size:23px;
+        }
     }
    .aboutussec4{
     background-color: variables.$primary-backgroundcolor;
@@ -1503,9 +1528,34 @@ header{
       font-size: variables.$xl-fontsize;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
-    }
+         @media (max-width: 1000px){
+           font-size: variables.$l-fontsize;
+ }
+         @media (max-width: 750px){
+           font-size:25px;
+ }
+   @media (max-width: 600px){
+           font-size:22px;
+ }
+ @media (max-width: 510px){
+           font-size:variables.$m-fontsize;
+ }
+  @media (max-width: 480px){
+           font-size:17px;
+ }
+  @media (max-width: 400px){
+           font-size:15px;
+ }
+}
     i{
       font-size: variables.$xl-fontsize;
+            @media (max-width: 750px){
+           font-size: variables.$l-fontsize;
+ }
+ @media (max-width: 500px){
+           font-size:variables.$m-fontsize;
+ }
+
     }
    }
    .aboutussec5{
@@ -1515,6 +1565,16 @@ header{
   .aboutussec5container1{
     @include mixin.flex(row,wrap,none,none);
     gap: 250px;
+         @media (max-width: 1550px){
+           gap: 150px;
+ }
+    @media (max-width: 1440px){
+           gap: 100px;
+ }
+      @media (max-width: 1365px){
+         @include mixin.flex(column,nowrap,center,center);
+         
+      }
     .sec5containerimg{
      background-image: url(../images/georgianature7.jpg);
      background-position: center;
@@ -1522,17 +1582,60 @@ header{
      background-size: cover;
     width: 600px;
     height: 850px;
-    
+      @media (max-width: 1365px){
+           width: 100%;
+ }
 }
  .sec5containerinfo{
   @include mixin.flex(column,wrap,center,none);
   gap: variables.$xxl-gap;
+  @media(max-width:1050px){
+   margin-right: 200px;
+  }
+   @media(max-width:950px){
+   margin-right: 320px;
+  }
+    @media(max-width:950px){
+   margin-right: 320px;
+  }
+   @media(max-width:800px){
+      margin-right: 450px;
+  }
+   
+   @media(max-width:700px){
+      margin-right: 550px;
+  }
+   @media(max-width:650px){
+      margin-right: 650px;
+  }
+    @media(max-width:600px){
+      margin-right: 700px;
+  }
+    @media(max-width:500px){
+      margin-right:800px;
+  }
+     @media(max-width:450px){
+      margin-right:850px;
+  }
+  @media(max-width:400px){
+      margin-right:900px;
+  }
+  @media(max-width:360px){
+      margin-right:950px;
+  }
    h2{
     color: variables.$primary-color;
       font-size: 50px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+       @media (max-width: 1365px){
+          text-align: center;
+      }
+       @media(max-width:600px){
+       font-size:variables.$xl-fontsize;
     }
+    }
+    
     p{
       color: variables.$primary-color;
       font-size: variables.$l-fontsize;
@@ -1540,13 +1643,40 @@ header{
       line-height: 2;
       width: 900px;
       font-family: variables.$font-family;
+       @media (max-width: 1700px){
+           font-size: 25px;
+           width: 650px;
+ }
+ 
+  @media (max-width: 1365px){
+           margin-bottom: 150px;
+           width: 800px;
+      }
+      @media(max-width:900px){
+    font-size:variables.$m-fontsize;
+    width: 500px;
+    margin-left: 50px;
+  }
+  @media(max-width:600px){
+       font-size:17px;
+      width: 300px;
     }
    }
-   }
+  }
+}
    .aboutussec5container2{
      @include mixin.flex(row,wrap,none,none);
     gap: 250px;
-
+          @media (max-width: 1550px){
+           gap: 150px;
+ }
+    @media (max-width: 1440px){
+           gap: 100px;
+ }
+      @media (max-width: 1365px){
+         @include mixin.flex(column,nowrap,center,center);
+         
+      }
      .sec5containerimg{
      background-image: url(../images/georgianature8.webp);
      background-position: center;
@@ -1554,15 +1684,59 @@ header{
      background-size: cover;
     width: 600px;
     height: 850px;
+       @media (max-width: 1365px){
+           width: 100%;
+ }
   }
   .sec5containerinfo{
   @include mixin.flex(column,wrap,center,none);
   gap: variables.$xxl-gap;
+   @media(max-width:1050px){
+   margin-right: 200px;
+  }
+   @media(max-width:950px){
+   margin-right: 320px;
+  }
+    @media(max-width:950px){
+   margin-right: 320px;
+  }
+   @media(max-width:800px){
+      margin-right: 450px;
+  }
+   
+   @media(max-width:700px){
+      margin-right: 550px;
+  }
+   @media(max-width:650px){
+      margin-right: 650px;
+  }
+    @media(max-width:600px){
+      margin-right: 700px;
+  }
+    @media(max-width:500px){
+      margin-right:800px;
+  }
+     @media(max-width:450px){
+      margin-right:850px;
+  }
+  @media(max-width:400px){
+      margin-right:900px;
+  }
+  @media(max-width:360px){
+      margin-right:950px;
+  }
    h2{
     color: variables.$primary-color;
       font-size: 50px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+         @media (max-width: 1365px){
+          text-align: center;
+      }
+       @media(max-width:600px){
+       font-size:variables.$xl-fontsize;
+    }
+      
     }
     p{
       color: variables.$primary-color;
@@ -1571,6 +1745,25 @@ header{
       line-height: 2;
       width: 900px;
       font-family: variables.$font-family;
+           @media (max-width: 1700px){
+           font-size: 25px;
+           width:600px;
+ }
+ 
+  @media (max-width: 1365px){
+      
+           width: 800px;
+      }
+       @media(max-width:900px){
+    font-size:variables.$m-fontsize;
+    width: 500px;
+    margin-left: 50px;
+  }
+  @media(max-width:600px){
+       font-size:17px;
+      width: 300px;
+      margin-right: 50px;
+    }
     }
     a{
       color: variables.$primary-color;
@@ -1589,15 +1782,29 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
-         
+          @media (max-width: 1365px){
+            margin-bottom: 150px;
+          }
+            @media(max-width:900px){
+              margin-left: 50px;
       }
+    }
     }
    }
    }
     .aboutussec5container3{
      @include mixin.flex(row,wrap,none,none);
       gap: 250px;
-
+   @media (max-width: 1550px){
+           gap: 150px;
+ }
+    @media (max-width: 1440px){
+           gap: 100px;
+ }
+      @media (max-width: 1365px){
+         @include mixin.flex(column,nowrap,center,center);
+         
+      }
      .sec5containerimg{
      background-image: url(../images/georgianature9.webp);
      background-position: center;
@@ -1605,15 +1812,58 @@ header{
      background-size: cover;
     width: 600px;
     height: 850px;
+       @media (max-width: 1365px){
+           width: 100%;
+ }
   }
   .sec5containerinfo{
   @include mixin.flex(column,wrap,center,none);
   gap: variables.$xxl-gap;
+   @media(max-width:1050px){
+   margin-right: 200px;
+  }
+   @media(max-width:950px){
+   margin-right: 320px;
+  }
+    @media(max-width:950px){
+   margin-right: 320px;
+  }
+   @media(max-width:800px){
+      margin-right: 450px;
+  }
+   
+   @media(max-width:700px){
+      margin-right: 550px;
+  }
+   @media(max-width:650px){
+      margin-right: 650px;
+  }
+    @media(max-width:600px){
+      margin-right: 700px;
+  }
+    @media(max-width:500px){
+      margin-right:800px;
+  }
+     @media(max-width:450px){
+      margin-right:850px;
+  }
+  @media(max-width:400px){
+      margin-right:900px;
+  }
+  @media(max-width:360px){
+      margin-right:950px;
+  }
    h2{
     color: variables.$primary-color;
       font-size: 50px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+         @media (max-width: 1365px){
+          text-align: center;
+      }
+      @media(max-width:600px){
+       font-size:variables.$xl-fontsize;
+    }
     }
     p{
       color: variables.$primary-color;
@@ -1622,6 +1872,25 @@ header{
       line-height: 2;
       width: 900px;
       font-family: variables.$font-family;
+        @media (max-width: 1700px){
+           font-size: 25px;
+           width: 550px;
+ }
+ 
+  @media (max-width: 1365px){
+          
+           width: 800px;
+      }
+       @media(max-width:900px){
+    font-size:variables.$m-fontsize;
+    width: 500px;
+    margin-left: 50px;
+  }
+  @media(max-width:600px){
+       font-size:17px;
+      width: 300px;
+      margin-left: 80px;
+    }
     }
     a{
       color: variables.$primary-color;
@@ -1640,14 +1909,32 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
-         
+           @media (max-width: 1365px){
+            margin-bottom: 150px;
+          }
+            @media(max-width:900px){
+              margin-left: 50px;
       }
+       @media(max-width:600px){
+          margin-left:70px;
+      }
+    }
     }
    }
    }
      .aboutussec5container4{
      @include mixin.flex(row,wrap,none,none);
       gap: 250px;
+       @media (max-width: 1550px){
+           gap: 150px;
+ }
+    @media (max-width: 1440px){
+           gap: 100px;
+ }
+      @media (max-width: 1365px){
+         @include mixin.flex(column,nowrap,center,center);
+         
+      }
  .sec5containerimg{
      background-image: url(../images/georgianature10.webp);
      background-position: center;
@@ -1655,25 +1942,106 @@ header{
      background-size: cover;
     width: 600px;
     height: 850px;
+      @media (max-width: 1365px){
+           width: 100%;
+ }
   }
   .sec5containerinfo{
   @include mixin.flex(column,wrap,center,none);
   gap: 110px;
+
    h2{
     color: variables.$primary-color;
       font-size: 50px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+         @media (max-width: 1365px){
+          text-align: center;
+      }
+       @media(max-width:1050px){
+   margin-right: 200px;
+  }
+   @media(max-width:950px){
+   margin-right: 320px;
+  }
+   
+   @media(max-width:800px){
+      margin-right: 450px;
+  }
+   
+   @media(max-width:700px){
+      margin-right: 550px;
+  }
+   @media(max-width:650px){
+      margin-right: 650px;
+  }
+    @media(max-width:600px){
+      margin-right: 700px;
+  }
+    @media(max-width:500px){
+      margin-right:800px;
+  }
+     @media(max-width:450px){
+      margin-right:850px;
+  }
+  @media(max-width:400px){
+      margin-right:900px;
+  }
+  @media(max-width:360px){
+      margin-right:950px;
+  }
+        @media(max-width:600px){
+       font-size:variables.$xl-fontsize;
+    }
     }
     .sec5infobox{
       @include mixin.flex(column,wrap,none,none);
       gap: variables.$xxl-gap;
+         @media (max-width: 1365px){
+          margin-bottom: 120px;
+         }
+         
       div{
-        @include mixin.flex(row,wrap,none,none);
+        @include mixin.flex(row,nowrap,none,none);
         gap: variables.$xl-gap;
+            @media(max-width:450px){
+     gap: 10px;
+        }
+         @media (max-width: 1365px){
+          margin-left: 400px;
+         }
+          @media(max-width:1050px){
+   position: relative;
+   right: 100px;
+  }
+           @media(max-width:950px){
+     right: 160px;
+  }
+     @media(max-width:900px){
+     right: 140px;
+  }
+   @media(max-width:800px){
+      right: 210px;
+  }
+   @media(max-width:700px){
+    right: 250px;
+     
+  }
+   @media(max-width:650px){
+      right:310px;
+  }
+   @media(max-width:500px){
+         right:340px;
+  }
+   @media(max-width:450px){
+       right:360px;
+  }
         i{
           font-size: variables.$xl-fontsize;
+           @media(max-width:450px){
+     font-size: 25px;
         }
+      }
         span{
           position: relative;
           bottom: 15px;
@@ -1683,6 +2051,28 @@ header{
           line-height: 2;
           width: 700px;
           font-family: variables.$font-family;
+            @media (max-width: 1700px){
+           font-size: 25px;
+           width: 550px;
+ }
+  @media(max-width:480px){
+       font-size:12px;
+  }
+   @media(max-width:900px){
+    font-size:variables.$m-fontsize;
+    width: 500px;
+    margin-left: 50px;
+    bottom: 0;
+    right: 40px;
+  }
+ @media(max-width:500px){
+           font-size:17px;
+  }
+  @media (max-width: 1365px){
+        
+           width: 800px;
+      }
+      
       }
     }
     }
@@ -1691,6 +2081,16 @@ header{
     .aboutussec5container5{
     @include mixin.flex(row,wrap,none,none);
     gap: 250px;
+     @media (max-width: 1550px){
+           gap: 150px;
+ }
+    @media (max-width: 1440px){
+           gap: 100px;
+ }
+      @media (max-width: 1365px){
+         @include mixin.flex(column,nowrap,center,center);
+         
+      }
     .sec5containerimg{
      background-image: url(../images/georgianature10.webp);
      background-position: center;
@@ -1698,16 +2098,59 @@ header{
      background-size: cover;
     width: 600px;
     height: 850px;
-    
+     @media (max-width: 1365px){
+           width: 100%;
+        
+ }
 }
  .sec5containerinfo{
   @include mixin.flex(column,wrap,center,none);
   gap: variables.$xxl-gap;
+     @media(max-width:1050px){
+   margin-right: 200px;
+  }
+   @media(max-width:950px){
+   margin-right: 320px;
+  }
+    @media(max-width:950px){
+   margin-right: 320px;
+  }
+   @media(max-width:800px){
+      margin-right: 450px;
+  }
+   
+   @media(max-width:700px){
+      margin-right: 550px;
+  }
+   @media(max-width:650px){
+      margin-right: 650px;
+  }
+    @media(max-width:600px){
+      margin-right: 700px;
+  }
+    @media(max-width:500px){
+      margin-right:800px;
+  }
+     @media(max-width:450px){
+      margin-right:850px;
+  }
+  @media(max-width:400px){
+      margin-right:900px;
+  }
+  @media(max-width:360px){
+      margin-right:950px;
+  }
    h2{
     color: variables.$primary-color;
       font-size: 50px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+          @media (max-width: 1365px){
+          text-align: center;
+      }
+      @media(max-width:600px){
+       font-size:variables.$xl-fontsize;
+    }
     }
     p{
       color: variables.$primary-color;
@@ -1716,6 +2159,25 @@ header{
       line-height: 2;
       width: 900px;
       font-family: variables.$font-family;
+        @media (max-width: 1700px){
+           font-size: 25px;
+           width:600px;
+ }
+ 
+  @media (max-width: 1365px){
+           padding-bottom:100px;
+           width: 800px;
+      }
+       @media(max-width:900px){
+    font-size:variables.$m-fontsize;
+    width: 500px;
+    margin-left: 50px;
+  }
+  @media(max-width:600px){
+       font-size:17px;
+      width: 300px;
+      margin-left: 80px;
+    }
     }
    }
    }
@@ -1732,19 +2194,46 @@ header{
     @include mixin.flex(column,wrap,none,none);
     background-color: rgb(12, 97, 12);
    border-radius: 20px;
+     
   .registrationtop{
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$l-gap;
       width: 800px;
       height: 200px;
+         @media (max-width: 900px){
+           width: 600px;
+           height: variables.$l-w;
+         }
+            @media (max-width: 650px){
+                 width: 500px;
+                 height: 150px;
+            }
+              @media (max-width: 500px){
+                 width: 400px;
+                 height:variables.$m-h;
+            }
+             @media (max-width: 400px){
+                width: 350px;
+                height: variables.$s-h;
+               }
       h1{
         color: variables.$primary-color;
         font-size: variables.$xl-fontsize;
         font-family: "Roboto", sans-serif;
         font-weight: variables.$bold-fontweight;
+           @media (max-width: 500px){
+           font-size: 30px;
+           }
+           @media (max-width: 400px){
+                  font-size: 23px;
+               }
    }
      img{
         width: variables.$m-w;
+          @media (max-width: 500px){
+           width: 75px;
+           }
+           
       }
     }
     hr{
@@ -1780,6 +2269,15 @@ header{
           padding-left: 15px;
           font-size: variables.$m-fontsize;
           font-family: variables.$font-family;
+               @media (max-width: 900px){
+       width: 400px;
+               }
+             @media (max-width: 500px){
+                width: 300px;
+               }
+                  @media (max-width: 400px){
+                     width: variables.$xxl-w;
+                  }
         &::placeholder{
             color:  lightgray;
             font-family: variables.$font-family;
@@ -1814,11 +2312,32 @@ header{
     width: 960px;
     height: 400px;
     background-color: variables.$primary-backgroundcolor;
+    @media(max-width: 1400px){
+      width: 100%;
+    }
     h1{
       color: variables.$primary-color;
       font-size: variables.$l-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+
+      @media(max-width: 1700px){
+         font-size:25px;
+      }
+    @media(max-width: 700px){
+         font-size:23px;
+        
+      } 
+       @media(max-width: 630px){
+         font-size:variables.$m-fontsize;
+         
+      }
+        @media(max-width: 630px){
+      font-size: 17px;
+      }
+       @media(max-width: 470px){
+      font-size: 15px;
+      }
     }
     p{
       color: variables.$primary-color;
@@ -1827,6 +2346,18 @@ header{
       font-weight: variables.$bold-fontweight;
       width: 750px;
       line-height: 1.5;
+        @media(max-width: 1700px){
+         font-size:17px;
+      }
+         @media(max-width: 800px){
+         font-size:15px;
+         width: 600px;
+      }
+       @media(max-width: 630px){
+         font-size:13px;
+         width: 400px;
+         
+      }
     }
   }
   .rightdonationdiv{
@@ -1836,7 +2367,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+      @media(max-width: 1400px){
+        display: none;
   }
+}
 }
 .donation-form {
   @include mixin.flex(column, wrap, center, center);
@@ -1853,11 +2387,48 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+        @media(max-width: 1150px){
+             font-size: variables.$l-fontsize;
      }
+    
+           @media(max-width: 700px){
+             font-size: 23px;
+     }
+      @media(max-width: 620px){
+             font-size: variables.$m-fontsize;
+     }
+      @media(max-width: 550px){
+             font-size: 18px;
+           
+     }
+       @media(max-width: 500px){
+             font-size: 16px;
+           
+     }
+     @media(max-width: 480px){
+             font-size: 15px;
+            
+     }
+     @media(max-width: 460px){
+             font-size: 15px;
+             margin-right: 50px;
+     }
+       @media(max-width: 440px){
+             font-size: 15px;
+             margin-right: 80px;
+            width: 100%
+     }
+     @media(max-width: 430px){
+             font-size: 15px;
+             margin-left:30px;
+            width: 100%
+     }
+    }
     hr{
       width: 100%;
     background-color:  black;
     margin-bottom: 100px;
+
     }
 
    h3{
@@ -1865,14 +2436,21 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
-     
+       @media(max-width: 1150px){
+             font-size: variables.$l-fontsize;
+     }
+       @media(max-width: 450px){
+           margin-right: 50px;
+     }
     }
     .donationoptions{
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$xxl-gap;
       margin-top: 30px;
       margin-bottom: 30px;
-      
+        @media(max-width: 450px){
+           margin-right: 50px;
+     }
       .amount{
         @include mixin.flex(row,wrap,center,center);
        input{
@@ -1889,7 +2467,7 @@ header{
              border: 1px solid black;
              width: variables.$l-w;
              height: 75px;
-
+          
              &:hover{
                   background-color: variables.$primary-backgroundcolor;
                   color: white;
@@ -1914,6 +2492,39 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+       
+           @media(max-width: 700px){
+             font-size: variables.$l-fontsize;
+     }
+      @media(max-width: 620px){
+             font-size: 25px;
+     }
+      @media(max-width: 550px){
+             font-size: 23px;
+           
+     }
+       @media(max-width: 500px){
+             font-size:22px;
+           
+     }
+     @media(max-width: 480px){
+             font-size: variables.$m-fontsize;
+            
+     }
+     @media(max-width: 460px){
+             font-size: 19px;
+             margin-right: 50px;
+     }
+       @media(max-width: 440px){
+             font-size: 15px;
+             margin-right: 80px;
+            width: 100%
+     }
+     @media(max-width: 430px){
+             font-size: 15px;
+             margin-left:30px;
+            width: 100%
+     }
      }
     hr{
       width: 100%;
@@ -1981,6 +2592,38 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+          @media(max-width: 700px){
+             font-size: variables.$l-fontsize;
+     }
+      @media(max-width: 620px){
+             font-size: 25px;
+     }
+      @media(max-width: 550px){
+             font-size: 23px;
+           
+     }
+       @media(max-width: 500px){
+             font-size:22px;
+           
+     }
+     @media(max-width: 480px){
+             font-size: variables.$m-fontsize;
+            
+     }
+     @media(max-width: 460px){
+             font-size: 19px;
+             margin-right: 50px;
+     }
+       @media(max-width: 440px){
+             font-size: 15px;
+             margin-right: 80px;
+            width: 100%
+     }
+     @media(max-width: 430px){
+             font-size: 15px;
+             margin-left:30px;
+            width: 100%
+     }
      }
     hr{
       width: 100%;
@@ -1994,10 +2637,13 @@ header{
            .sec3leftside{
     @include mixin.flex(column,wrap,center,center);
      gap: variables.$xxl-gap;
+     
      label{
       font-size: variables.$l-fontsize;
        font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+
+     
    }
      input{
       width: 500px;
@@ -2006,13 +2652,16 @@ header{
      font-size: variables.$m-fontsize;
        font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
-       text-align: center;     
+       text-align: center;   
+       
      &::placeholder{
          font-size: variables.$m-fontsize;
             font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
      }
+     
      }
+    
     }
     .sec3rightside{
        @include mixin.flex(column,wrap,center,center);
@@ -2160,9 +2809,24 @@ header{
       font-size: 60px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+        @media (max-width: 750px){
+          font-size:53px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
       i{
           font-size: 60px;
+              @media (max-width: 750px){
+          font-size:53px;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
     }
     p{
@@ -2173,6 +2837,12 @@ header{
         font-family:variables.$font-family;
         width: 75%;
         margin-bottom: 30px;
+          @media (max-width: 550px){
+          font-size:25px;
+           }
+               @media (max-width: 360px){
+          font-size:23px;
+        }
   }
   hr{
     width: 100%;
@@ -2192,23 +2862,47 @@ header{
     background-size: cover;
     width: 500px;
     height: 700px;
+        @media (max-width: 1505px){
+          width: 100%;
+        }
     }
     .servicesectionsrightbox{
       @include mixin.flex(column,wrap,none,none);
       gap: variables.$xxl-gap;
-     
+         @media (max-width: 1505px){
+                @include mixin.flex(column,wrap,center,center);
+            }
+            
       .littlebox{
         @include mixin.flex(row,nowrap,none,none);
         gap: variables.$m-gap;
-       
+      
+        @media (max-width: 950px){
+                  gap: variables.$s-gap;
+                  text-align: center;
+             }
         h2{
           color: variables.$secondery-color;
           font-size: variables.$l-fontsize;
           font-family: variables.$font-family;
           font-weight: variables.$bold-fontweight;
+             @media (max-width: 950px){
+                 font-size: 25px;
+                 line-height: 1.5;
+             }
+               @media (max-width: 480px){
+                  font-size: 21px;
+                }
         }
         i{
           font-size: variables.$xl-fontsize; 
+            @media (max-width: 950px){
+                 font-size: variables.$l-fontsize; 
+             }
+              @media (max-width: 763px){
+             display: none;
+              
+             }
         }
       }
       p{
@@ -2218,16 +2912,67 @@ header{
           font-weight: variables.$bold-fontweight;
           line-height: 1.5;
           width: 900px;
+         @media (max-width: 1505px){
+          font-size: variables.$m-fontsize;
+          width: 70%;
+         }
       }
       ul{
         @include mixin.flex(column,wrap,none,none);
         gap: variables.$l-gap;
         list-style-type: disc;
+          @media (max-width: 1505px){
+              @include mixin.flex(column,wrap,center,center);
+          }
+           @media (max-width: 550px){
+                 margin-left: 40px;
+                }
+          .firstli{
+              color: variables.$secondery-color;
+          font-size: variables.$m-fontsize;
+          font-family: variables.$font-family;
+          font-weight: variables.$bold-fontweight;
+           @media (max-width: 1505px){
+              position: relative;
+              left:8px;
+            }
+               @media (max-width: 650px){
+                  font-size: 18px;
+                }
+                  @media (max-width: 550px){
+                 width: 100%;
+                  left:0;
+                }
+          }
        li{
          color: variables.$secondery-color;
           font-size: variables.$m-fontsize;
           font-family: variables.$font-family;
           font-weight: variables.$bold-fontweight;
+                @media (max-width: 650px){
+                  font-size: 18px;
+                }
+                  @media (max-width: 550px){
+                 width: 100%;
+                }
+      }
+      .lastli{
+            color: variables.$secondery-color;
+          font-size: variables.$m-fontsize;
+          font-family: variables.$font-family;
+          font-weight: variables.$bold-fontweight;
+            @media (max-width: 1505px){
+              position: relative;
+              right: 40px;
+            }
+               @media (max-width: 650px){
+                  font-size: 18px;
+               right: 35px;
+                }
+                   @media (max-width: 550px){
+                 width: 100%;
+                 right: 0;
+                }
       }
     }
     a{
@@ -2242,6 +2987,7 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
+          
       }
     }
 }
@@ -2258,6 +3004,9 @@ hr{
   background-size: cover;
   width: 500px;
   height: 650px;
+     @media (max-width: 1505px){
+          width: 100%;
+        }
 }
 .servicesectionsleftbox3{
    background-image: url(../images/georgianature15.jpg);
@@ -2266,6 +3015,9 @@ hr{
   background-size: cover;
   width: 500px;
   height: 620px;
+     @media (max-width: 1505px){
+          width: 100%;
+        }
 }
  .newssec2{
     background-image: url(../images/georgianature16.webp);
@@ -2361,14 +3113,32 @@ hr{
   .newssec3info{
     @include mixin.flex(row,nowrap,center,center);
     gap: variables.$xl-gap;
+       @media (max-width: 400px){
+          gap: variables.$m-gap;
+       }
      h1{
       color: variables.$secondery-color;
       font-size: 60px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+       @media (max-width: 750px){
+          font-size:53px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
       i{
           font-size: 60px;
+              @media (max-width: 750px){
+          font-size:53px;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
     }
     p{
@@ -2379,6 +3149,12 @@ hr{
         font-family:variables.$font-family;
         width: 75%;
         margin-bottom: 30px;
+           @media (max-width: 550px){
+          font-size:25px;
+           }
+               @media (max-width: 360px){
+          font-size:23px;
+        }
   }
   hr{
     width: 100%;
@@ -2403,11 +3179,14 @@ hr{
       background-color: black;
       width: 100%;
       height: variables.$m-h;
-      opacity: 0.6; border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+      opacity: 0.6; 
       @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
+         @media(max-width: 650px){
+           gap: variables.$s-gap;
+        
+      }
      h3{
       color: variables.$primary-color;
       font-size: variables.$l-fontsize;
@@ -2415,12 +3194,23 @@ hr{
       font-family: variables.$font-family;
       position: relative;
       z-index: 2;
-     
+         @media(max-width: 750px){
+       font-size: 22px;
+        
+      }
+        @media(max-width: 650px){
+           font-size: variables.$m-fontsize;
+        
+      }
      }
      i{
       font-size: variables.$l-fontsize;
       position: relative;
       z-index: 2;
+         @media(max-width: 650px){
+           font-size: 25px;
+        
+      }
      }
     }
      p{
@@ -2432,13 +3222,50 @@ hr{
         width: 75%;
         margin-left: 250px;
         margin-bottom: 75px;
+      @media(max-width: 1350px){
+           margin-left: 200px;
+      }
+       @media(max-width: 1250px){
+           margin-left: 150px;
+         
+      }
+         @media(max-width: 850px){
+           margin-left: 100px;
+           font-size: 25px;
+      }
+         @media(max-width: 650px){
+       font-size: 22px;
+        
+      }
+         @media(max-width: 480px){
+           font-size: variables.$m-fontsize;
+           margin-left: 75px;
+      }
        }
        .bottompart1{
         @include mixin.flex(row,wrap,none,none);
         gap: variables.$m-gap;
          margin-left: 250px;
+             @media(max-width: 1350px){
+           margin-left: 200px;
+      }
+        @media(max-width: 1250px){
+           margin-left: 150px;
+         
+      }
+        @media(max-width: 850px){
+           margin-left: 100px;
+        
+      }
+        @media(max-width: 480px){
+        margin-left: 75px;
+      }
       i{
           font-size: variables.$xl-fontsize;
+              @media(max-width: 850px){
+       font-size: variables.$l-fontsize;
+        
+      }
          }
          span{
           color: variables.$primary-color;
@@ -2447,6 +3274,14 @@ hr{
           font-family:variables.$font-family;
           position: relative;
           top: 5px;
+              @media(max-width: 850px){
+       font-size: 25px;
+        
+      }
+      @media(max-width: 650px){
+       font-size: 22px;
+        
+      }
          }
        }
   }
@@ -2471,7 +3306,10 @@ hr{
       @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
-
+   @media(max-width: 650px){
+           gap: variables.$s-gap;
+        
+      }
         h3{
       color: variables.$primary-color;
       font-size: variables.$l-fontsize;
@@ -2479,12 +3317,23 @@ hr{
       font-family: variables.$font-family;
       position: relative;
       z-index: 2;
-     
+      @media(max-width: 750px){
+       font-size: 22px;
+        
+      }
+        @media(max-width: 650px){
+           font-size: variables.$m-fontsize;
+        
+      }
      }
      i{
       font-size: variables.$l-fontsize;
       position: relative;
       z-index: 2;
+       @media(max-width: 650px){
+           font-size: 25px;
+        
+      }
      }
     }
      p{
@@ -2496,15 +3345,51 @@ hr{
         width: 75%;
         margin-left: 250px;
         margin-bottom: 75px;
+           @media(max-width: 1350px){
+           margin-left: 200px;
+      }
+       @media(max-width: 1250px){
+           margin-left: 150px;
+         
+      }
+         @media(max-width: 850px){
+           margin-left: 100px;
+           font-size: 25px;
+      }
+         @media(max-width: 650px){
+       font-size: 22px;
+        
+      }
+         @media(max-width: 480px){
+           font-size: variables.$m-fontsize;
+           margin-left: 75px;
+      }
        }
       .bottompart2{
         @include mixin.flex(row,wrap,none,none);
         gap: variables.$m-gap;
          margin-left: 250px;
+           @media(max-width: 1350px){
+           margin-left: 200px;
+      }
+        @media(max-width: 1250px){
+           margin-left: 150px;
          
+      }
+        @media(max-width: 850px){
+           margin-left: 100px;
+        
+      }
+        @media(max-width: 480px){
+        margin-left: 75px;
+      }
 
           i{
           font-size: variables.$xl-fontsize;
+           @media(max-width: 850px){
+       font-size: variables.$l-fontsize;
+        
+      }
          }
          span{
           color: variables.$primary-color;
@@ -2513,6 +3398,14 @@ hr{
           font-family:variables.$font-family;
           position: relative;
           top: 5px;
+           @media(max-width: 850px){
+       font-size: 25px;
+        
+      }
+      @media(max-width: 650px){
+       font-size: 22px;
+        
+      }
          }
  }
 }
@@ -2535,7 +3428,10 @@ hr{
      @include mixin.flex(row,nowrap,center,center);
       gap: variables.$l-gap;
       margin-bottom: 90px;
-
+  @media(max-width: 650px){
+           gap: variables.$s-gap;
+        
+      }
         h3{
       color: variables.$primary-color;
       font-size: variables.$l-fontsize;
@@ -2543,12 +3439,23 @@ hr{
       font-family: variables.$font-family;
       position: relative;
       z-index: 2;
-     
+       @media(max-width: 750px){
+       font-size: 22px;
+        
+      }
+        @media(max-width: 650px){
+           font-size: variables.$m-fontsize;
+        
+      }
      }
      i{
       font-size: variables.$l-fontsize;
       position: relative;
       z-index: 2;
+        @media(max-width: 650px){
+           font-size: 25px;
+        
+      }
      }
     }
     .bottompart3{
@@ -2557,12 +3464,23 @@ hr{
        @include mixin.flex(column,wrap,none,none);
        gap: variables.$xxl-gap;
        list-style:disc;
+    @media(max-width: 600px){
+   margin-left: 40px;
 
+         }
        li{
         font-size: variables.$l-fontsize;
         color: variables.$primary-color;
         font-family: variables.$font-family;
         font-weight: variables.$bold-fontweight;
+    
+        
+         @media(max-width: 1150px){
+       font-size: 25px;
+         }
+           @media(max-width: 750px){
+       font-size: variables.$m-fontsize;
+         }
        }
     }
   }
@@ -2662,14 +3580,31 @@ hr{
  .contactsec3container{
   @include mixin.flex(row,nowrap,none,none);
   gap: variables.$xxl-gap;
-  
+     @media (max-width: 400px){
+          gap: variables.$m-gap;
+       }
   h1{
        color: variables.$secondery-color;
       font-size: 60px;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+        @media (max-width: 750px){
+          font-size:53px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
       i{
+           @media (max-width: 750px){
+          font-size:53px;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
           font-size: 60px;
       }
 }
@@ -2680,6 +3615,12 @@ p{
         line-height: 1.6;
         font-family:variables.$font-family;
         width: 70%;
+         @media (max-width: 550px){
+          font-size:25px;
+           }
+               @media (max-width: 360px){
+          font-size:23px;
+        }
 }
 }
 .contactsec4{
@@ -2693,14 +3634,16 @@ p{
   padding-bottom: 100px;
   margin-bottom: 200px;
   .contactsec4container{
-    width: 50%;
+    width: 75%;
     height: 400px;
     background-color: variables.$primary-backgroundcolor;
     border-radius: 30px;
     border: 4px solid black;
     @include mixin.flex(column,wrap,center,center);
     gap: variables.$xxl-gap;
-   
+      @media (max-width: 800px){
+           width: 100%;
+        }
     .contactsec4box1{
       @include mixin.flex(row,nowrap,none,none);
       gap: variables.$m-gap;
@@ -2710,9 +3653,15 @@ p{
         font-family: variables.$font-family;
         font-size:60px;
         font-weight: variables.$bold-fontweight;
+        @media (max-width: 1000px){
+            font-size:35px;
+        }
       }
       i{
         font-size: 60px;
+           @media (max-width: 1000px){
+            font-size:45px;
+        }
       }
     }
     .contactsec4box2{
@@ -2724,6 +3673,9 @@ p{
         font-family: variables.$font-family;
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
+          @media (max-width: 1000px){
+            text-align: center;
+        }
       }
   }
 }
@@ -2735,10 +3687,26 @@ p{
         color: variables.$primary-color;
         font-family: variables.$font-family;
         font-size:variables.$xl-fontsize;
-        font-weight: variables.$bold-fontweight
+        font-weight: variables.$bold-fontweight;
+           @media (max-width: 1000px){
+            font-size:variables.$l-fontsize;
+            text-align: center;
+        }
+          @media (max-width: 600px){
+           font-size:25px;
+        }
   }
   i{
         font-size: variables.$xl-fontsize;
+         @media (max-width: 1000px){
+            font-size:35px;
+        }
+          @media (max-width: 600px){
+           font-size:variables.$l-fontsize;
+        }
+           @media (max-width: 480px){
+           font-size:23px;
+        }
       }
 }
 .ecomapsec2{
@@ -2833,17 +3801,36 @@ p{
   gap: 70px;
   margin-bottom: 100px;
   .ecomapsec3container{
+    
       @include mixin.flex(row,nowrap,center,center);
       gap: variables.$xxl-gap;
+       @media (max-width: 400px){
+          gap: variables.$m-gap;
+       }
 
       h1{
         color: variables.$secondery-color;
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 750px){
+          font-size:53px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
       i{
           font-size: 60px;
+             @media (max-width: 750px){
+          font-size:53px;
+        }
+          @media (max-width: 360px){
+          font-size:variables.$l-fontsize;
+        }
       }
   }
   p{
@@ -2851,7 +3838,12 @@ p{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
-       
+        @media (max-width: 550px){
+          font-size:25px;
+           }
+               @media (max-width: 360px){
+          font-size:23px;
+        }
   }
 }
 hr{
@@ -2861,20 +3853,56 @@ hr{
     @include mixin.flex(row,nowrap,center,center);
       gap: variables.$xl-gap;
      margin-bottom: 150px;
+      @media (max-width: 750px){
+           gap: variables.$s-gap;
+        }
       h1{
         color: variables.$secondery-color;
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+     
+         @media (max-width: 1150px){
+          font-size:50px;
+        }
+            @media (max-width: 1000px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 750px){
+          font-size:35px;
+        }
+        @media (max-width: 650px){
+            font-size:variables.$l-fontsize;
+        }
+         @media (max-width: 550px){
+            font-size:25px;
+        }
+          @media (max-width: 480px){
+            font-size:22px;
+            text-align: center;
+        }
       }
       i{
          font-size: 60px;
+          @media (max-width: 750px){
+            font-size:50px;
+        }
+              @media (max-width: 650px){
+            font-size:45px;
+        }
+        @media (max-width: 480px){
+            font-size:35px;
+        }
+           @media (max-width: 410px){
+         display: none;
+        }
       }
 }
 .ecomapsec4{
    @include mixin.flex(column,wrap,flex-start,center);
   gap: variables.$xxl-gap;
   margin-bottom: 100px;
+ 
     .frame1container{
     @include mixin.flex(row,nowrap,flex-start,center);
     }
