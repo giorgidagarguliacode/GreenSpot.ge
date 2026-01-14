@@ -1322,16 +1322,6 @@ footer .footercontainer2 .footergreespotinfo p {
   font-weight: 700;
 }
 
-.lasthr {
-  display: block;
-  border: none;
-  height: 2px;
-  background-color: white;
-  width: 75%;
-  margin-bottom: 50px;
-  margin-top: 15px;
-}
-
 .aboutussec2 {
   background-image: url(../images/georgianature6.jpeg);
 }
