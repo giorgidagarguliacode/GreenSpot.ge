@@ -1106,12 +1106,57 @@ header .headerdiv i {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 750px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 750px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 580px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 220px;
+  }
+}
+@media (max-width: 530px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 260px;
+  }
+}
+@media (max-width: 480px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 330px;
+  }
+}
+@media (max-width: 430px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 400px;
+  }
+}
+@media (max-width: 370px) {
+  .sec6 .sec6container .topbox .topboxleft {
+    padding-right: 450px;
+  }
+}
 .sec6 .sec6container .topbox .topboxleft h3 {
   color: black;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 500px) {
+  .sec6 .sec6container .topbox .topboxleft h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .sec6 .sec6container .topbox .topboxleft h3 {
+    font-size: 23px;
+  }
 }
 .sec6 .sec6container .topbox .topboxleft .underline {
   height: 5px;
@@ -1136,6 +1181,17 @@ header .headerdiv i {
 @media (max-width: 750px) {
   .sec6 .sec6container .topbox .topboxleft p {
     margin-right: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .sec6 .sec6container .topbox .topboxleft p {
+    width: 500px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .sec6 .sec6container .topbox .topboxleft p {
+    width: 300px;
   }
 }
 .sec6 .sec6container .topbox .topboxright {
@@ -1212,12 +1268,57 @@ header .headerdiv i {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 750px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 750px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 580px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 220px;
+  }
+}
+@media (max-width: 530px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 260px;
+  }
+}
+@media (max-width: 480px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 330px;
+  }
+}
+@media (max-width: 430px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 400px;
+  }
+}
+@media (max-width: 370px) {
+  .sec6 .sec6container .bottombox .bottomboxright {
+    padding-right: 450px;
+  }
+}
 .sec6 .sec6container .bottombox .bottomboxright h3 {
   font-family: "Arial GEO", sans-serif;
   color: black;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .sec6 .sec6container .bottombox .bottomboxright h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .sec6 .sec6container .bottombox .bottomboxright h3 {
+    font-size: 23px;
+  }
 }
 .sec6 .sec6container .bottombox .bottomboxright .underline {
   height: 5px;
@@ -1242,6 +1343,17 @@ header .headerdiv i {
 @media (max-width: 750px) {
   .sec6 .sec6container .bottombox .bottomboxright p {
     margin-right: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .sec6 .sec6container .bottombox .bottomboxright p {
+    width: 500px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 480px) {
+  .sec6 .sec6container .bottombox .bottomboxright p {
+    width: 300px;
   }
 }
 
