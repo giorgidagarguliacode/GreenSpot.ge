@@ -584,6 +584,11 @@ header .headerdiv i {
     font-size: 7px;
   }
 }
+@media (max-width: 334px) {
+  .sec1 nav {
+    gap: 1px;
+  }
+}
 
 .sec2 {
   background-image: url(../images/georgianature1.jpg);
@@ -621,6 +626,7 @@ header .headerdiv i {
 @media (max-width: 1400px) {
   .sec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -645,37 +651,12 @@ header .headerdiv i {
 }
 @media (max-width: 730px) {
   .sec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .sec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .sec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .sec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .sec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .sec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .sec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -1148,6 +1129,11 @@ header .headerdiv i {
   margin-bottom: 30px;
   font-family: "Arial GEO", sans-serif;
 }
+@media (max-width: 350px) {
+  .sec6 .sec6container .topbox .topboxleft h3 {
+    padding-right: 40px;
+  }
+}
 @media (max-width: 500px) {
   .sec6 .sec6container .topbox .topboxleft h3 {
     font-size: 25px;
@@ -1163,6 +1149,12 @@ header .headerdiv i {
   width: 200px;
   background-color: #077431;
   margin-bottom: 50px;
+}
+@media (max-width: 350px) {
+  .sec6 .sec6container .topbox .topboxleft .underline {
+    position: relative;
+    right: 20px;
+  }
 }
 .sec6 .sec6container .topbox .topboxleft p {
   color: black;
@@ -1320,6 +1312,11 @@ header .headerdiv i {
     font-size: 23px;
   }
 }
+@media (max-width: 350px) {
+  .sec6 .sec6container .bottombox .bottomboxright h3 {
+    font-size: 18px;
+  }
+}
 .sec6 .sec6container .bottombox .bottomboxright .underline {
   height: 5px;
   width: 200px;
@@ -1474,6 +1471,11 @@ footer .footercontainer1 .footernavigation .footernav2 nav div i {
     left: 0;
   }
 }
+@media (max-width: 1440px) {
+  footer .footercontainer2 {
+    margin-left: 50px;
+  }
+}
 footer .footercontainer2 h1 {
   color: white;
   font-weight: 700;
@@ -1487,9 +1489,19 @@ footer .footercontainer2 h1 {
     font-size: 50px;
   }
 }
+@media (max-width: 480px) {
+  footer .footercontainer2 h1 {
+    font-size: 45px;
+  }
+}
 @media (max-width: 424px) {
   footer .footercontainer2 h1 {
     font-size: 40px;
+  }
+}
+@media (max-width: 400px) {
+  footer .footercontainer2 h1 {
+    font-size: 35px;
   }
 }
 footer .footercontainer2 .container2hr1 {
@@ -1612,6 +1624,7 @@ footer .footercontainer2 .footergreespotinfo p {
 @media (max-width: 1400px) {
   .aboutussec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -1636,37 +1649,12 @@ footer .footercontainer2 .footergreespotinfo p {
 }
 @media (max-width: 730px) {
   .aboutussec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .aboutussec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .aboutussec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .aboutussec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .aboutussec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .aboutussec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .aboutussec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -2940,6 +2928,12 @@ p {
     font-size: 15px;
   }
 }
+@media (max-width: 440px) {
+  .donationcontainer .leftdonationdiv h1 {
+    font-size: 12px;
+    text-align: center;
+  }
+}
 .donationcontainer .leftdonationdiv p {
   color: white;
   font-size: 20px;
@@ -2963,6 +2957,12 @@ p {
   .donationcontainer .leftdonationdiv p {
     font-size: 13px;
     width: 400px;
+  }
+}
+@media (max-width: 440px) {
+  .donationcontainer .leftdonationdiv p {
+    font-size: 12px;
+    width: 100%;
   }
 }
 .donationcontainer .rightdonationdiv {
@@ -3050,14 +3050,47 @@ p {
 @media (max-width: 430px) {
   .donation-form .sec1donation h1 {
     font-size: 15px;
-    margin-left: 30px;
+    margin-right: 50px;
     width: 100%;
+  }
+}
+@media (max-width: 440px) {
+  .donation-form .sec1donation h1 {
+    padding-right: 80px;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .donation-form .sec1donation h1 {
+    font-size: 15px;
+    padding-right: 120px;
+  }
+}
+@media (max-width: 360px) {
+  .donation-form .sec1donation h1 {
+    padding-right: 160px;
+  }
+}
+@media (max-width: 340px) {
+  .donation-form .sec1donation h1 {
+    padding-right: 180px;
+  }
+}
+@media (max-width: 330px) {
+  .donation-form .sec1donation h1 {
+    padding-right: 200px;
   }
 }
 .donation-form .sec1donation hr {
   width: 100%;
   background-color: black;
   margin-bottom: 100px;
+}
+@media (max-width: 440px) {
+  .donation-form .sec1donation hr {
+    position: relative;
+    right: 100px;
+  }
 }
 .donation-form .sec1donation h3 {
   color: black;
@@ -3075,6 +3108,16 @@ p {
     margin-right: 50px;
   }
 }
+@media (max-width: 440px) {
+  .donation-form .sec1donation h3 {
+    margin-right: 120px;
+  }
+}
+@media (max-width: 400px) {
+  .donation-form .sec1donation h3 {
+    margin-right: 150px;
+  }
+}
 .donation-form .sec1donation .donationoptions {
   display: flex;
   flex-direction: row;
@@ -3085,9 +3128,55 @@ p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+@media (max-width: 400px) {
+  .donation-form .sec1donation .donationoptions {
+    gap: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .donation-form .sec1donation .donationoptions {
+    gap: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .donation-form .sec1donation .donationoptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 340px) {
+  .donation-form .sec1donation .donationoptions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    padding-right: 30px;
+  }
+}
 @media (max-width: 450px) {
   .donation-form .sec1donation .donationoptions {
     margin-right: 50px;
+  }
+}
+@media (max-width: 440px) {
+  .donation-form .sec1donation .donationoptions {
+    padding-right: 80px;
+  }
+}
+@media (max-width: 400px) {
+  .donation-form .sec1donation .donationoptions {
+    padding-right: 120px;
+  }
+}
+@media (max-width: 370px) {
+  .donation-form .sec1donation .donationoptions {
+    padding-right: 140px;
   }
 }
 .donation-form .sec1donation .donationoptions .amount {
@@ -3127,7 +3216,7 @@ p {
 .donation-form .sec2donation {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 50px;
@@ -3149,19 +3238,10 @@ p {
     font-size: 25px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 440px) {
   .donation-form .sec2donation h1 {
-    font-size: 23px;
-  }
-}
-@media (max-width: 500px) {
-  .donation-form .sec2donation h1 {
-    font-size: 22px;
-  }
-}
-@media (max-width: 480px) {
-  .donation-form .sec2donation h1 {
-    font-size: 20px;
+    position: relative;
+    left: 80px;
   }
 }
 @media (max-width: 460px) {
@@ -3184,9 +3264,30 @@ p {
     width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .donation-form .sec2donation h1 {
+    left: 50px;
+  }
+}
+@media (max-width: 370px) {
+  .donation-form .sec2donation h1 {
+    left: 30px;
+  }
+}
+@media (max-width: 340px) {
+  .donation-form .sec2donation h1 {
+    left: 10px;
+  }
+}
 .donation-form .sec2donation hr {
   width: 100%;
   background-color: black;
+}
+@media (max-width: 440px) {
+  .donation-form .sec2donation hr {
+    position: relative;
+    right: 100px;
+  }
 }
 .donation-form .sec2donation .sec2donationcontainer {
   display: flex;
@@ -3210,7 +3311,7 @@ p {
   font-weight: 700;
 }
 .donation-form .sec2donation .sec2donationcontainer .leftside input {
-  width: 500px;
+  width: 450px;
   height: 80px;
   border: 1px solid black;
   font-size: 20px;
@@ -3242,7 +3343,7 @@ p {
   font-weight: 700;
 }
 .donation-form .sec2donation .sec2donationcontainer .rightside input {
-  width: 500px;
+  width: 450px;
   height: 80px;
   border: 1px solid black;
   font-size: 20px;
@@ -3285,19 +3386,10 @@ p {
     font-size: 25px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 440px) {
   .donation-form .sec3donation h1 {
-    font-size: 23px;
-  }
-}
-@media (max-width: 500px) {
-  .donation-form .sec3donation h1 {
-    font-size: 22px;
-  }
-}
-@media (max-width: 480px) {
-  .donation-form .sec3donation h1 {
-    font-size: 20px;
+    position: relative;
+    left: 80px;
   }
 }
 @media (max-width: 460px) {
@@ -3320,9 +3412,30 @@ p {
     width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .donation-form .sec3donation h1 {
+    left: 50px;
+  }
+}
+@media (max-width: 370px) {
+  .donation-form .sec3donation h1 {
+    left: 30px;
+  }
+}
+@media (max-width: 340px) {
+  .donation-form .sec3donation h1 {
+    left: 10px;
+  }
+}
 .donation-form .sec3donation hr {
   width: 100%;
   background-color: black;
+}
+@media (max-width: 440px) {
+  .donation-form .sec3donation hr {
+    position: relative;
+    right: 100px;
+  }
 }
 .donation-form .sec3donation .sec3donationcontainer {
   display: flex;
@@ -3346,7 +3459,7 @@ p {
   font-weight: 700;
 }
 .donation-form .sec3donation .sec3donationcontainer .sec3leftside input {
-  width: 500px;
+  width: 450px;
   height: 80px;
   border: 1px solid black;
   font-size: 20px;
@@ -3384,7 +3497,7 @@ p {
   font-weight: 700;
 }
 .donation-form .sec3donation .sec3donationcontainer .sec3rightside input {
-  width: 500px;
+  width: 450px;
   height: 80px;
   border: 1px solid black;
   font-size: 20px;
@@ -3452,6 +3565,7 @@ p {
 @media (max-width: 1400px) {
   .servicesec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -3476,37 +3590,12 @@ p {
 }
 @media (max-width: 730px) {
   .servicesec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .servicesec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .servicesec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .servicesec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .servicesec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .servicesec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .servicesec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -3851,6 +3940,7 @@ hr {
 @media (max-width: 1400px) {
   .newssec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -3875,37 +3965,12 @@ hr {
 }
 @media (max-width: 730px) {
   .newssec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .newssec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .newssec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .newssec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .newssec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .newssec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .newssec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -4435,6 +4500,7 @@ hr {
 @media (max-width: 1400px) {
   .contactsec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -4459,37 +4525,12 @@ hr {
 }
 @media (max-width: 730px) {
   .contactsec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .contactsec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .contactsec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .contactsec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .contactsec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .contactsec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .contactsec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -4728,6 +4769,7 @@ hr {
 @media (max-width: 1400px) {
   .ecomapsec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -4752,37 +4794,12 @@ hr {
 }
 @media (max-width: 730px) {
   .ecomapsec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .ecomapsec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .ecomapsec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .ecomapsec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .ecomapsec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .ecomapsec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .ecomapsec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -5159,6 +5176,7 @@ hr {
 @media (max-width: 1400px) {
   .ecoadvicesec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -5183,37 +5201,12 @@ hr {
 }
 @media (max-width: 730px) {
   .ecoadvicesec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .ecoadvicesec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .ecoadvicesec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .ecoadvicesec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .ecoadvicesec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .ecoadvicesec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .ecoadvicesec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
@@ -5398,6 +5391,7 @@ hr {
 @media (max-width: 1400px) {
   .ecoeducationsec2 h1 {
     font-size: 25px;
+    text-align: center;
   }
 }
 @media (max-width: 1100px) {
@@ -5422,37 +5416,12 @@ hr {
 }
 @media (max-width: 730px) {
   .ecoeducationsec2 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 650px) {
-  .ecoeducationsec2 h1 {
-    font-size: 13px;
-  }
-}
-@media (max-width: 560px) {
-  .ecoeducationsec2 h1 {
-    font-size: 12px;
-  }
-}
-@media (max-width: 520px) {
-  .ecoeducationsec2 h1 {
-    font-size: 10px;
-  }
-}
-@media (max-width: 440px) {
-  .ecoeducationsec2 h1 {
-    font-size: 9px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 400px) {
   .ecoeducationsec2 h1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 350px) {
-  .ecoeducationsec2 h1 {
-    font-size: 7px;
+    font-size: 15px;
   }
 }
 
