@@ -1476,6 +1476,11 @@ footer .footercontainer1 .footernavigation .footernav2 nav div i {
     margin-left: 50px;
   }
 }
+@media (max-width: 1242px) {
+  footer .footercontainer2 {
+    margin-left: 0;
+  }
+}
 footer .footercontainer2 h1 {
   color: white;
   font-weight: 700;
@@ -2763,7 +2768,6 @@ p {
 @media (max-width: 400px) {
   .registrationmain .registrationtop {
     width: 350px;
-    height: 50px;
   }
 }
 .registrationmain .registrationtop h1 {
@@ -4920,17 +4924,6 @@ hr {
     font-size: 30px;
   }
 }
-@media (max-width: 550px) {
-  .littlecontainer h1 {
-    font-size: 25px;
-  }
-}
-@media (max-width: 480px) {
-  .littlecontainer h1 {
-    font-size: 22px;
-    text-align: center;
-  }
-}
 .littlecontainer i {
   font-size: 60px;
 }
@@ -4970,6 +4963,27 @@ hr {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
+}
+@media (max-width: 930px) {
+  .ecomapsec4 .frame1container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .ecomapsec4 .frame1container iframe {
+    width: 400px;
+  }
+}
+@media (max-width: 930px) {
+  .ecomapsec4 .frame1container iframe {
+    width: 100%;
+  }
 }
 .ecomapsec4 h1 {
   margin-top: 20px;
@@ -4977,6 +4991,11 @@ hr {
   font-size: 60px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec4 h1 {
+    font-size: 40px;
+  }
 }
 .ecomapsec4 ul {
   line-height: 2;
@@ -4986,6 +5005,16 @@ hr {
   font-size: 30px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec4 ul li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 651px) {
+  .ecomapsec4 ul li {
+    text-align: center;
+  }
 }
 
 hr {
@@ -5007,12 +5036,32 @@ hr {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1250px) {
+  .ecomapsec5 .frame2container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  .ecomapsec5 .frame2container iframe {
+    width: 100%;
+  }
+}
 .ecomapsec5 h1 {
   margin-top: 20px;
   color: black;
   font-size: 60px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec5 h1 {
+    font-size: 40px;
+  }
 }
 .ecomapsec5 ul {
   line-height: 3;
@@ -5022,6 +5071,16 @@ hr {
   font-size: 30px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec5 ul li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 848px) {
+  .ecomapsec5 ul li {
+    text-align: center;
+  }
 }
 
 hr {
@@ -5044,12 +5103,32 @@ hr {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1600px) {
+  .ecomapsec6 .frame3container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1600px) {
+  .ecomapsec6 .frame3container iframe {
+    width: 100%;
+  }
+}
 .ecomapsec6 h1 {
   margin-top: 20px;
   color: black;
   font-size: 60px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec6 h1 {
+    font-size: 40px;
+  }
 }
 .ecomapsec6 ul {
   line-height: 3;
@@ -5059,6 +5138,16 @@ hr {
   font-size: 30px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec6 ul li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1138px) {
+  .ecomapsec6 ul li {
+    text-align: center;
+  }
 }
 
 hr {
@@ -5081,12 +5170,32 @@ hr {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1250px) {
+  .ecomapsec7 .frame4container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  .ecomapsec7 .frame4container iframe {
+    width: 100%;
+  }
+}
 .ecomapsec7 h1 {
   margin-top: 20px;
   color: black;
   font-size: 60px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec7 h1 {
+    font-size: 40px;
+  }
 }
 .ecomapsec7 ul {
   line-height: 3;
@@ -5096,6 +5205,16 @@ hr {
   font-size: 30px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec7 ul li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 814px) {
+  .ecomapsec7 ul li {
+    text-align: center;
+  }
 }
 
 hr {
@@ -5118,12 +5237,32 @@ hr {
   justify-content: flex-start;
   align-items: center;
 }
+@media (max-width: 1300px) {
+  .ecomapsec8 .frame5container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1300px) {
+  .ecomapsec8 .frame5container iframe {
+    width: 100%;
+  }
+}
 .ecomapsec8 h1 {
   margin-top: 20px;
   color: black;
   font-size: 60px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec8 h1 {
+    font-size: 40px;
+  }
 }
 .ecomapsec8 ul {
   line-height: 3;
@@ -5133,6 +5272,16 @@ hr {
   font-size: 30px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 930px) {
+  .ecomapsec8 ul li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1121px) {
+  .ecomapsec8 ul li {
+    text-align: center;
+  }
 }
 
 hr {
@@ -5226,17 +5375,78 @@ hr {
   align-items: center;
   gap: 30px;
 }
+@media (max-width: 450px) {
+  .ecoadvicesec3 .ecoadvicesec3container {
+    gap: 10px;
+  }
+}
 .ecoadvicesec3 .ecoadvicesec3container h1 {
   font-size: 60px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 1150px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 750px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 650px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .ecoadvicesec3 .ecoadvicesec3container h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
 .ecoadvicesec3 .ecoadvicesec3container i {
   font-size: 60px;
+}
+@media (max-width: 750px) {
+  .ecoadvicesec3 .ecoadvicesec3container i {
+    font-size: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .ecoadvicesec3 .ecoadvicesec3container i {
+    font-size: 45px;
+  }
+}
+@media (max-width: 480px) {
+  .ecoadvicesec3 .ecoadvicesec3container i {
+    font-size: 35px;
+  }
 }
 .ecoadvicesec3 p {
   width: 70%;
   line-height: 1.8;
+}
+@media (max-width: 650px) {
+  .ecoadvicesec3 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .ecoadvicesec3 p {
+    font-size: 18px;
+  }
 }
 
 .dividerhr {
@@ -5261,16 +5471,64 @@ hr {
   align-items: center;
   gap: 30px;
 }
+@media (max-width: 525px) {
+  .ecoadvicesec4 .ecoadvicesec4container {
+    gap: 10px;
+  }
+}
 .ecoadvicesec4 .ecoadvicesec4container h1 {
   font-size: 40px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 900px) {
+  .ecoadvicesec4 .ecoadvicesec4container h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .ecoadvicesec4 .ecoadvicesec4container h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 665px) {
+  .ecoadvicesec4 .ecoadvicesec4container h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 407px) {
+  .ecoadvicesec4 .ecoadvicesec4container h1 {
+    line-height: 1.5;
+  }
 }
 .ecoadvicesec4 .ecoadvicesec4container i {
   font-size: 55px;
 }
+@media (max-width: 720px) {
+  .ecoadvicesec4 .ecoadvicesec4container i {
+    font-size: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .ecoadvicesec4 .ecoadvicesec4container i {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+@media (max-width: 470px) {
+  .ecoadvicesec4 .ecoadvicesec4container i {
+    display: none;
+  }
+}
 .ecoadvicesec4 hr {
   width: 60%;
+}
+@media (max-width: 1100px) {
+  .ecoadvicesec4 hr {
+    width: 100%;
+  }
 }
 .ecoadvicesec4 p {
   color: black;
@@ -5281,6 +5539,11 @@ hr {
   position: relative;
   bottom: 60px;
 }
+@media (max-width: 500px) {
+  .ecoadvicesec4 p {
+    font-size: 20px;
+  }
+}
 .ecoadvicesec4 ul {
   display: flex;
   flex-direction: column;
@@ -5290,11 +5553,21 @@ hr {
   gap: 30px;
   list-style-type: disc;
 }
+@media (max-width: 700px) {
+  .ecoadvicesec4 ul {
+    list-style-type: none;
+  }
+}
 .ecoadvicesec4 ul li {
   color: black;
   font-size: 20px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+}
+@media (max-width: 700px) {
+  .ecoadvicesec4 ul li {
+    text-align: center;
+  }
 }
 .ecoadvicesec4 .ecoadvicesec4container2 {
   margin-top: 10px;
@@ -5306,8 +5579,28 @@ hr {
   align-items: center;
   gap: 30px;
 }
+@media (max-width: 700px) {
+  .ecoadvicesec4 .ecoadvicesec4container2 {
+    gap: 10px;
+  }
+}
 .ecoadvicesec4 .ecoadvicesec4container2 i {
   font-size: 40px;
+}
+@media (max-width: 700px) {
+  .ecoadvicesec4 .ecoadvicesec4container2 i {
+    font-size: 30px;
+  }
+}
+@media (max-width: 637px) {
+  .ecoadvicesec4 .ecoadvicesec4container2 i {
+    display: none;
+  }
+}
+@media (max-width: 860px) {
+  .ecoadvicesec4 .ecoadvicesec4container2 i {
+    display: none;
+  }
 }
 .ecoadvicesec4 .ecoadvicesec4container2 p {
   color: black;
@@ -5317,9 +5610,19 @@ hr {
   padding-top: 110px;
   width: 100%;
 }
+@media (max-width: 637px) {
+  .ecoadvicesec4 .ecoadvicesec4container2 p {
+    margin-left: 50px;
+  }
+}
 
 hr {
   width: 60%;
+}
+@media (max-width: 1100px) {
+  hr {
+    width: 100%;
+  }
 }
 
 .hrcap {
@@ -5347,12 +5650,34 @@ hr {
   font-size: 40px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 1100px) {
+  .ecoadvicelastsec .ecoadvicelastseccontainer h3 {
+    font-size: 30px;
+  }
 }
 .ecoadvicelastsec .ecoadvicelastseccontainer i {
   font-size: 60px;
 }
+@media (max-width: 1100px) {
+  .ecoadvicelastsec .ecoadvicelastseccontainer i {
+    font-size: 50px;
+  }
+}
+@media (max-width: 741px) {
+  .ecoadvicelastsec .ecoadvicelastseccontainer i {
+    display: none;
+  }
+}
 .ecoadvicelastsec p {
   width: 65%;
+}
+@media (max-width: 1100px) {
+  .ecoadvicelastsec p {
+    font-size: 25px;
+  }
 }
 
 .ecoeducationsec2 {
@@ -5446,13 +5771,48 @@ hr {
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 750px) {
+  .ecoeducationsec3 .ecoeducationsec3container h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .ecoeducationsec3 .ecoeducationsec3container h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .ecoeducationsec3 .ecoeducationsec3container h1 {
+    font-size: 25px;
+  }
+}
 .ecoeducationsec3 .ecoeducationsec3container i {
   font-size: 60px;
+}
+@media (max-width: 750px) {
+  .ecoeducationsec3 .ecoeducationsec3container i {
+    font-size: 50px;
+  }
+}
+@media (max-width: 650px) {
+  .ecoeducationsec3 .ecoeducationsec3container i {
+    font-size: 45px;
+  }
 }
 .ecoeducationsec3 p {
   width: 70%;
   line-height: 1.8;
   margin-bottom: 40px;
+}
+@media (max-width: 650px) {
+  .ecoeducationsec3 p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .ecoeducationsec3 p {
+    font-size: 18px;
+  }
 }
 
 .ecoeducationsec4 {
@@ -5468,6 +5828,16 @@ hr {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
+}
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .ecoeducationcontainersec4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+  }
 }
 .ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 {
   display: flex;
@@ -5490,6 +5860,11 @@ hr {
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 480px) {
+  .ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .smallcontainer h1 {
+    font-size: 25px;
+  }
+}
 .ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .smallcontainer i {
   font-size: 30px;
 }
@@ -5505,6 +5880,12 @@ hr {
   line-height: 2;
   width: 75%;
 }
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 p {
+    width: 60%;
+    text-align: center;
+  }
+}
 .ecoeducationsec4 .rightcontainer1 {
   background-image: url(../images/georgianature21.jpg);
   background-repeat: no-repeat;
@@ -5513,6 +5894,16 @@ hr {
   width: 100%;
   height: 400px;
 }
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .rightcontainer1 {
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .ecoeducationsec4 .rightcontainer1 {
+    width: 100%;
+  }
+}
 .ecoeducationsec4 .leftcontainer2 {
   background-image: url(../images/georgianature22.jpg);
   background-repeat: no-repeat;
@@ -5520,6 +5911,17 @@ hr {
   background-size: cover;
   width: 70.7%;
   height: 400px;
+}
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .leftcontainer2 {
+    width: 60%;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .ecoeducationsec4 .leftcontainer2 {
+    width: 100%;
+  }
 }
 .ecoeducationsec4 .rightcontainer2 {
   display: flex;
@@ -5542,6 +5944,11 @@ hr {
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@media (max-width: 480px) {
+  .ecoeducationsec4 .rightcontainer2 .smallcontainer h1 {
+    font-size: 25px;
+  }
+}
 .ecoeducationsec4 .rightcontainer2 .smallcontainer i {
   font-size: 30px;
 }
@@ -5557,6 +5964,13 @@ hr {
   line-height: 2;
   width: 75%;
 }
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .rightcontainer2 p {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+}
 .ecoeducationsec4 .rightcontainer3 {
   background-image: url(../images/georgianature23.jpg);
   background-repeat: no-repeat;
@@ -5567,6 +5981,17 @@ hr {
   position: relative;
   left: 12px;
 }
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .rightcontainer3 {
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .ecoeducationsec4 .rightcontainer3 {
+    width: 100%;
+    left: 0;
+  }
+}
 .ecoeducationsec4 .leftcontainer4 {
   background-image: url(../images/georgianature24.jpg);
   background-repeat: no-repeat;
@@ -5574,6 +5999,20 @@ hr {
   background-size: cover;
   width: 47.8%;
   height: 400px;
+}
+@media (max-width: 1700px) {
+  .ecoeducationsec4 .leftcontainer4 {
+    width: 60%;
+    margin-top: 100px;
+    position: relative;
+    left: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .ecoeducationsec4 .leftcontainer4 {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .ecoeducationmain {
