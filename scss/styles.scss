@@ -1281,6 +1281,9 @@ header{
    @media(max-width: 1440px){
         margin-left: 50px;
        }
+          @media(max-width: 1242px){
+        margin-left:0;
+       }
   h1{
      color: variables.$primary-color;
       font-weight: variables.$bold-fontweight;
@@ -2179,7 +2182,7 @@ header{
     @include mixin.flex(column,wrap,none,none);
     background-color: rgb(12, 97, 12);
    border-radius: 20px;
-     
+    
   .registrationtop{
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$l-gap;
@@ -2199,7 +2202,7 @@ header{
             }
              @media (max-width: 400px){
                 width: 350px;
-                height: variables.$s-h;
+                
                }
       h1{
         color: variables.$primary-color;
@@ -3859,13 +3862,7 @@ hr{
         @media (max-width: 650px){
             font-size:variables.$l-fontsize;
         }
-         @media (max-width: 550px){
-            font-size:25px;
-        }
-          @media (max-width: 480px){
-            font-size:22px;
-            text-align: center;
-        }
+       
       }
       i{
          font-size: 60px;
@@ -3890,13 +3887,32 @@ hr{
  
     .frame1container{
     @include mixin.flex(row,nowrap,flex-start,center);
+    width: 100%;
+       @media (max-width: 930px){
+         @include mixin.flex(column,nowrap,center,flex-start);
+          width: 100%;
+       }
+    iframe{
+      @media (max-width: 1100px){
+        width:400px;
+      }
+        @media (max-width: 930px){
+       
+          width: 100%;
+       }
+    }
     }
   h1{
      margin-top: 20px;
      color: variables.$secondery-color;
         font-size: 60px;
+       
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+         @media (max-width: 930px){
+        font-size:variables.$xl-fontsize;
+          
+       }
   }
   ul{
     line-height: 2;
@@ -3907,6 +3923,15 @@ hr{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+        
+          @media (max-width: 930px){
+        font-size:25px;
+          
+       }
+           @media (max-width:651px){
+       text-align: center;
+          
+       }
     }
   }
    
@@ -3919,13 +3944,26 @@ hr{
     gap: variables.$xxl-gap;
    .frame2container{
     @include mixin.flex(row,nowrap,flex-start,center);
+     @media (max-width: 1250px){
+         @include mixin.flex(column,nowrap,center,flex-start);
+          width: 100%;
+       }
+       iframe{
+      @media (max-width: 1250px){
+        width:100%;
+      }
   }
+}
     h1{
      margin-top: 20px;
      color: variables.$secondery-color;
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 930px){
+        font-size:variables.$xl-fontsize;
+          
+       }
   }
   ul{
     line-height: 3;
@@ -3936,6 +3974,14 @@ hr{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 930px){
+        font-size:25px;
+          
+       }
+           @media (max-width:848px){
+       text-align: center;
+          
+       }
     }
   }
    
@@ -3950,6 +3996,15 @@ hr{
 
     .frame3container{
          @include mixin.flex(row,nowrap,flex-start,center);
+           @media (max-width: 1600px){
+         @include mixin.flex(column,nowrap,center,flex-start);
+          width: 100%;
+       }
+       iframe{
+      @media (max-width: 1600px){
+        width:100%;
+      }
+  }
     }
       h1{
      margin-top: 20px;
@@ -3957,6 +4012,10 @@ hr{
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+         @media (max-width: 930px){
+        font-size:variables.$xl-fontsize;
+          
+       }
   }
   ul{
     line-height: 3;
@@ -3967,7 +4026,16 @@ hr{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+          @media (max-width: 930px){
+        font-size:25px;
+          
+       }
+           @media (max-width:1138px){
+       text-align: center;
+          
+       }
     }
+    
   }
 }
 hr{
@@ -3979,6 +4047,15 @@ hr{
     gap: variables.$xxl-gap;
       .frame4container{
     @include mixin.flex(row,nowrap,flex-start,center);
+      @media (max-width: 1250px){
+         @include mixin.flex(column,nowrap,center,flex-start);
+          width: 100%;
+       }
+       iframe{
+      @media (max-width: 1250px){
+        width:100%;
+      }
+  }
   }
    h1{
      margin-top: 20px;
@@ -3986,6 +4063,10 @@ hr{
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 930px){
+        font-size:variables.$xl-fontsize;
+          
+       }
   }
   ul{
     line-height: 3;
@@ -3996,6 +4077,14 @@ hr{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+            @media (max-width: 930px){
+        font-size:25px;
+          
+       }
+           @media (max-width:814px){
+       text-align: center;
+          
+       }
     }
   }
 }
@@ -4008,6 +4097,15 @@ hr{
     gap: variables.$xxl-gap;
       .frame5container{
     @include mixin.flex(row,nowrap,flex-start,center);
+     @media (max-width: 1300px){
+         @include mixin.flex(column,nowrap,center,flex-start);
+          width: 100%;
+       }
+       iframe{
+      @media (max-width: 1300px){
+        width:100%;
+      }
+  }
   }
    h1{
      margin-top: 20px;
@@ -4015,6 +4113,10 @@ hr{
         font-size: 60px;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 930px){
+        font-size:variables.$xl-fontsize;
+          
+       }
   }
   ul{
     line-height: 3;
@@ -4025,6 +4127,14 @@ hr{
         font-size: variables.$l-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+            @media (max-width: 930px){
+        font-size:25px;
+          
+       }
+           @media (max-width:1121px){
+       text-align: center;
+          
+       }
     }
   }
 }
@@ -4098,23 +4208,60 @@ hr{
 .ecoadvicesec3{
   @include mixin.flex(column,wrap,center,center);
   gap: variables.$xxl-gap;
-
+ 
   .ecoadvicesec3container{
      @include mixin.flex(row,nowrap,center,center);
      gap: variables.$l-gap;
-
+ @media (max-width: 450px){
+           gap: variables.$s-gap;
+        }
      h1{
       font-size: 60px;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+         @media (max-width: 1150px){
+          font-size:50px;
+        }
+            @media (max-width: 1000px){
+          font-size:variables.$xl-fontsize;
+        }
+          @media (max-width: 750px){
+          font-size:35px;
+        }
+        @media (max-width: 650px){
+            font-size:variables.$l-fontsize;
+        }
+         @media (max-width: 550px){
+            font-size:25px;
+        }
+          @media (max-width: 480px){
+            font-size:22px;
+            text-align: center;
+        }
     }
     i{
          font-size: 60px;
+          @media (max-width: 750px){
+            font-size:50px;
+        }
+              @media (max-width: 650px){
+            font-size:45px;
+        }
+        @media (max-width: 480px){
+            font-size:35px;
+        }
+         
     }
   }
   p{
     width: 70%;
     line-height: 1.8;
+      @media (max-width: 650px){
+          font-size:variables.$m-fontsize;
+           }
+               @media (max-width: 360px){
+          font-size:18px;
+        }
   }
 }
 
@@ -4122,6 +4269,7 @@ hr{
   margin-top: 50px;
   margin-bottom: 100px;
   width: 100%;
+      
 }
 
 .ecoadvicesec4{
@@ -4131,18 +4279,50 @@ hr{
   .ecoadvicesec4container{
     @include mixin.flex(row,nowrap,center,center);
     gap: variables.$l-gap;
-
+  @media (max-width: 525px){
+         gap: variables.$s-gap;
+       }
     h1{
        font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+      text-align: center;
+      line-height: 1.5;
+        @media (max-width: 900px){
+          font-size: variables.$l-fontsize;
+        }
+          @media (max-width: 720px){
+          font-size:variables.$l-fontsize;
+       
+        }
+         @media (max-width: 665px){
+          font-size:variables.$m-fontsize;
+       
+        }
+           @media (max-width: 407px){
+         line-height: 1.5;
+       }
     }
     i{
       font-size: 55px;
+       @media (max-width: 720px){
+          font-size:variables.$l-fontsize;
+       
+        }
+        @media (max-width: 720px){
+          font-size:35px;
+          text-align: center;
+        }
+         @media (max-width: 470px){
+         display: none;
+       }
     }
   }
   hr{
      width: 60%;
+      @media (max-width: 1100px){
+         width: 100%;
+       }
     }
   p{
       color: variables.$secondery-color;
@@ -4152,16 +4332,25 @@ hr{
         text-align: center;
         position: relative;
         bottom: 60px;
+            @media (max-width: 500px){
+         font-size: variables.$m-fontsize;
+       }
   }
   ul{
  @include mixin.flex(column,nowrap,none,none);
  gap: variables.$l-gap;
  list-style-type: disc;
+  @media (max-width: 700px){
+             list-style-type: none;
+           }
     li{
    color: variables.$secondery-color;
         font-size: variables.$m-fontsize;
         font-weight: variables.$bold-fontweight;
         font-family: variables.$font-family;
+           @media (max-width: 700px){
+             text-align: center;
+           }
     }
   }
   .ecoadvicesec4container2{
@@ -4169,9 +4358,20 @@ hr{
     margin-right: 70px;
     @include mixin.flex(row,nowrap,center,center);
     gap: variables.$l-gap;
-
+   @media (max-width: 700px){
+     gap: variables.$s-gap;
+   }
     i{
       font-size: variables.$xl-fontsize;
+      @media (max-width: 700px){
+         font-size: variables.$l-fontsize;
+      }
+         @media (max-width: 637px){
+     display: none;
+   }
+       @media (max-width: 860px){
+          display: none;
+       }
     }
     p{
       color: variables.$secondery-color;
@@ -4180,11 +4380,17 @@ hr{
         font-family: variables.$font-family;
        padding-top: 110px;
        width: 100%;
+          @media (max-width: 637px){
+    margin-left: 50px;
+   }
     }
   }
 }
 hr{
    width: 60%;
+     @media (max-width: 1100px){
+         width: 100%;
+       }
 }
 .hrcap{
   width: 100%;
@@ -4193,7 +4399,7 @@ hr{
   @include mixin.flex(column,wrap,center,center);
   gap: variables.$xxl-gap;
   margin-bottom: 200px;
-
+  
   .ecoadvicelastseccontainer{
       @include mixin.flex(row,nowrap,center,center);
   gap: variables.$l-gap;
@@ -4202,15 +4408,30 @@ hr{
     font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+      text-align: center;
+      line-height: 1.5;
+      @media (max-width: 1100px){
+         font-size: variables.$l-fontsize;
+       }
   }
   i{
      font-size: 60px;
+      @media (max-width: 1100px){
+         font-size: 50px;
+       }
+         @media (max-width: 741px){
+        display: none;
+       }
   }
   }
   p{
     width: 65%;
+      @media (max-width: 1100px){
+         font-size: 25px;
+       }
   }
-}
+  }
+
 .ecoeducationsec2{
   background-image: url(../images/georgianature20.jpg);
     @extend %sec2;
@@ -4286,23 +4507,49 @@ hr{
       font-size: 60px;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+         @media (max-width: 750px){
+          font-size:50px;
+        }
+            @media (max-width: 550px){
+          font-size:variables.$l-fontsize;
+        }
+          @media (max-width: 360px){
+          font-size:25px;
+        }
     }
     i{
          font-size: 60px;
+            @media (max-width: 750px){
+            font-size:50px;
+        }
+              @media (max-width: 650px){
+            font-size:45px;
+        }
+       
     }
   }
   p{
     width: 70%;
     line-height: 1.8;
     margin-bottom: 40px;
+    @media (max-width: 650px){
+          font-size:variables.$m-fontsize;
+           }
+               @media (max-width: 360px){
+          font-size:18px;
+        }
   }
   }
+  
 .ecoeducationsec4{
   @include mixin.flex(column,wrap,center,space-between);
- 
+   
  .ecoeducationcontainersec4{
     @include mixin.flex(row,nowrap,flex-start,center);
-    
+     @media (max-width: 1700px){
+            @include mixin.flex(column,nowrap,flex-start,center);
+            gap: variables.$xxl-gap;
+        }
     .leftcontainer1{
        @include mixin.flex(column,wrap,center,center);
        gap: variables.$xl-gap;
@@ -4313,6 +4560,10 @@ hr{
       font-size: variables.$l-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+         @media (max-width: 480px){
+        font-size: 25px;
+       
+     }
        }
        i{
          font-size: variables.$l-fontsize;
@@ -4330,6 +4581,10 @@ hr{
       font-weight: variables.$bold-fontweight;
       line-height: 2;
       width:75%;
+        @media (max-width: 1700px){
+             width:60%;
+             text-align: center;
+        }
     }
   }
 }
@@ -4340,6 +4595,13 @@ hr{
   background-size: cover;
   width: 100%;
   height: 400px;
+    @media (max-width: 1700px){
+      width: 60%;
+    }
+     @media (max-width: 1000px){
+        width: 100%;
+       
+     }
  }
  .leftcontainer2{
    background-image: url(../images/georgianature22.jpg);
@@ -4348,6 +4610,14 @@ hr{
   background-size: cover;
   width: 70.7%;
   height: 400px;
+    @media (max-width: 1700px){
+      width: 60%;
+      margin-top: 100px;
+    }
+      @media (max-width: 1000px){
+        width: 100%;
+       
+     }
  }
  .rightcontainer2{
   @include mixin.flex(column,wrap,center,center);
@@ -4360,6 +4630,10 @@ hr{
       font-size: variables.$l-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+         @media (max-width: 480px){
+        font-size: 25px;
+       
+     }
        }
        i{
          font-size: variables.$l-fontsize;
@@ -4377,6 +4651,11 @@ hr{
       font-weight: variables.$bold-fontweight;
       line-height: 2;
       width:75%;
+         @media (max-width: 1700px){
+             width:60%;
+             text-align: center;
+             margin-bottom: 150px;
+        }
     }
   }
   .rightcontainer3{
@@ -4388,6 +4667,14 @@ hr{
   height: 400px;
   position: relative;
   left: 12px;
+   @media (max-width: 1700px){
+      width: 60%;
+   
+    }
+      @media (max-width: 1000px){
+        width: 100%;
+        left: 0;
+     }
   }
   .leftcontainer4{
     background-image: url(../images/georgianature24.jpg);
@@ -4396,7 +4683,18 @@ hr{
   background-size: cover;
   width:47.8%;
   height: 400px;
+   @media (max-width: 1700px){
+      width: 60%;
+      margin-top: 100px;
+      position: relative;
+      left: 10px;
+    }
+     @media (max-width: 1000px){
+        width: 100%;
+        left: 0;
+     }
   }
+  
  }
  .ecoeducationmain{
   margin-bottom: 80px;
