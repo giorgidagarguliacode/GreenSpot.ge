@@ -486,6 +486,13 @@ header{
       }
 }
 }
+@media(max-width: 334px){
+  nav{
+    
+     gap: 1px;
+  
+  }
+}
 }
 .sec2{
     background-image: url(../images/georgianature1.jpg);
@@ -517,6 +524,7 @@ header{
   @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -541,37 +549,12 @@ header{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
 }
@@ -584,6 +567,7 @@ header{
         font-weight: variables.$bold-fontweight;
         margin-bottom: 70px;
         font-family: variables.$font-family;
+        
     }
     hr{
         width: 58%;
@@ -979,6 +963,10 @@ header{
           font-weight: variables.$bold-fontweight;
           margin-bottom: 30px;
           font-family: variables.$font-family;
+               @media(max-width: 350px){
+      
+                    padding-right: 40px;
+      }
             @media (max-width: 500px){
                          font-size: 25px;
 
@@ -986,13 +974,18 @@ header{
                        @media (max-width: 400px){
                             font-size: 23px;
                         }
+                       
         }
-
+ 
         .underline{
           height: 5px;
           width: variables.$xl-w;
           background-color: variables.$primary-backgroundcolor;
           margin-bottom: 50px;
+             @media (max-width: 350px){
+                          position: relative;
+                          right: 20px;
+                        }
         }
 
         p{
@@ -1133,7 +1126,11 @@ header{
                        @media (max-width: 400px){
                             font-size: 23px;
                         }
+                          @media (max-width: 350px){
+                           font-size: 18px;
+                        }
         }
+        
 
         .underline{
           height: 5px;
@@ -1180,6 +1177,7 @@ header{
     width: 100%;
    padding-bottom: 100px;
     @include mixin.flex(row,wrap,space-evenly,none);
+      
     .footercontainer1{
     
       h1{
@@ -1280,7 +1278,9 @@ header{
     }
 }
 .footercontainer2{
-  
+   @media(max-width: 1440px){
+        margin-left: 50px;
+       }
   h1{
      color: variables.$primary-color;
       font-weight: variables.$bold-fontweight;
@@ -1292,9 +1292,15 @@ header{
                 font-size: 50px;
            
        }
+         @media (max-width: 480px){
+                            font-size: 45px;
+                        }
           @media(max-width: 424px){
             font-size: 40px;
            }
+            @media (max-width: 400px){
+                            font-size: 35px;
+                        }
   }
   .container2hr1{
      border: none;
@@ -1302,6 +1308,7 @@ header{
      background-color: variables.$primary-color;
       width: 100%;
       margin: 40px auto;
+    
   }
   .socialplatforms{
     @include mixin.flex(row,wrap,center,none);
@@ -1407,6 +1414,7 @@ header{
      @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -1431,39 +1439,15 @@ header{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
+
  }
 
  .aboutussec3{
@@ -2320,7 +2304,7 @@ header{
       font-size: variables.$l-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
-
+   
       @media(max-width: 1700px){
          font-size:25px;
       }
@@ -2337,6 +2321,10 @@ header{
       }
        @media(max-width: 470px){
       font-size: 15px;
+      }
+       @media(max-width: 440px){
+      font-size: 12px;
+    text-align: center;
       }
     }
     p{
@@ -2357,6 +2345,11 @@ header{
          font-size:13px;
          width: 400px;
          
+      }
+        @media(max-width: 440px){
+      font-size: 12px;
+      width: 100%;
+    
       }
     }
   }
@@ -2420,15 +2413,39 @@ header{
      }
      @media(max-width: 430px){
              font-size: 15px;
-             margin-left:30px;
+             margin-right:50px;
             width: 100%
+     }
+     @media(max-width: 440px){
+    padding-right:80px ;
+     text-align: center;
+      }
+        @media(max-width: 420px){
+             font-size: 15px;
+             padding-right: 120px;
+     }
+   
+      @media(max-width: 360px){
+           padding-right: 160px;
+           
+     }
+        @media(max-width: 340px){
+           padding-right: 180px;
+           
+     }
+      @media(max-width: 330px){
+           padding-right: 200px;
+           
      }
     }
     hr{
       width: 100%;
     background-color:  black;
     margin-bottom: 100px;
-
+  @media(max-width: 440px){
+     position: relative;
+     right: 100px;
+      }
     }
 
    h3{
@@ -2442,21 +2459,54 @@ header{
        @media(max-width: 450px){
            margin-right: 50px;
      }
+        @media(max-width: 440px){
+    margin-right:120px;
+      }
+          @media(max-width: 400px){
+    margin-right:150px;
+      }
     }
     .donationoptions{
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$xxl-gap;
       margin-top: 30px;
       margin-bottom: 30px;
+         @media(max-width: 400px){
+  gap: variables.$l-gap;
+      }
+         @media(max-width: 370px){
+   gap: variables.$m-gap;
+      }
+           @media(max-width: 350px){
+    @include mixin.flex(row,wrap,flex-start,center);
+    margin-left: 5px;
+      }
+           @media(max-width: 340px){
+   @include mixin.flex(column,wrap,center,center);
+   margin-left: 0;
+   padding-right: 30px;
+      }
         @media(max-width: 450px){
            margin-right: 50px;
      }
+      @media(max-width: 440px){
+    padding-right:80px;
+   
+      }
+         @media(max-width: 400px){
+   padding-right: 120px;
+      }
+         @media(max-width: 370px){
+   padding-right: 140px;
+      }
+    
       .amount{
         @include mixin.flex(row,wrap,center,center);
        input{
           display: none;
            }
            label{
+            
               @include mixin.flex(row,wrap,center,center);
              cursor: pointer;
              font-size: variables.$m-fontsize;
@@ -2467,7 +2517,7 @@ header{
              border: 1px solid black;
              width: variables.$l-w;
              height: 75px;
-          
+            
              &:hover{
                   background-color: variables.$primary-backgroundcolor;
                   color: white;
@@ -2484,7 +2534,7 @@ header{
 
 
 .sec2donation{
-    @include mixin.flex(column,wrap,center,center);
+    @include mixin.flex(column,nowrap,center,center);
     gap: variables.$xxl-gap;
     margin-bottom: 150px;
    h1{
@@ -2499,16 +2549,10 @@ header{
       @media(max-width: 620px){
              font-size: 25px;
      }
-      @media(max-width: 550px){
-             font-size: 23px;
-           
-     }
-       @media(max-width: 500px){
-             font-size:22px;
-           
-     }
-     @media(max-width: 480px){
-             font-size: variables.$m-fontsize;
+      
+     @media(max-width: 440px){
+             position: relative;
+             left: 80px;
             
      }
      @media(max-width: 460px){
@@ -2525,15 +2569,34 @@ header{
              margin-left:30px;
             width: 100%
      }
+     @media(max-width: 400px){
+            
+             left: 50px;
+            
+     }
+      @media(max-width: 370px){
+            
+             left: 30px;
+            
+     }
+      @media(max-width: 340px){
+            
+             left: 10px;
+            
+     }
      }
     hr{
       width: 100%;
     background-color:  black;
+     @media(max-width: 440px){
+     position: relative;
+     right: 100px;
+      }
     }
    .sec2donationcontainer{
      @include mixin.flex(row,wrap,center,center);
      gap: variables.$xxl-gap;
-    
+     
       .leftside{
      @include mixin.flex(column,wrap,none,none);
      gap: variables.$xxl-gap;
@@ -2543,7 +2606,7 @@ header{
       font-weight: variables.$bold-fontweight;
    }
      input{
-      width: 500px;
+        width:450px;
      height: 80px;
     border: 1px solid black;
      font-size: variables.$m-fontsize;
@@ -2560,13 +2623,15 @@ header{
       .rightside{
      @include mixin.flex(column,wrap,none,none);
      gap: variables.$xxl-gap;
+   
    label{
       font-size: variables.$l-fontsize;
        font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+      
    }
      input{
-      width:500px;
+      width:450px;
      height: 80px;
     border: 1px solid black; 
      font-size: variables.$m-fontsize;
@@ -2578,6 +2643,7 @@ header{
             font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
      }
+      
      }
       }
    }
@@ -2592,22 +2658,16 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
-          @media(max-width: 700px){
+           @media(max-width: 700px){
              font-size: variables.$l-fontsize;
      }
       @media(max-width: 620px){
              font-size: 25px;
      }
-      @media(max-width: 550px){
-             font-size: 23px;
-           
-     }
-       @media(max-width: 500px){
-             font-size:22px;
-           
-     }
-     @media(max-width: 480px){
-             font-size: variables.$m-fontsize;
+      
+     @media(max-width: 440px){
+             position: relative;
+             left: 80px;
             
      }
      @media(max-width: 460px){
@@ -2624,16 +2684,34 @@ header{
              margin-left:30px;
             width: 100%
      }
+     @media(max-width: 400px){
+            
+             left: 50px;
+            
+     }
+      @media(max-width: 370px){
+            
+             left: 30px;
+            
+     }
+      @media(max-width: 340px){
+            
+             left: 10px;
+            
+     }
      }
     hr{
       width: 100%;
     background-color:  black;
+     @media(max-width: 440px){
+     position: relative;
+     right: 100px;
+      }
     }
-
     .sec3donationcontainer{
        @include mixin.flex(row,wrap,center,center);
      gap: variables.$xxl-gap;
-
+  
            .sec3leftside{
     @include mixin.flex(column,wrap,center,center);
      gap: variables.$xxl-gap;
@@ -2646,7 +2724,7 @@ header{
      
    }
      input{
-      width: 500px;
+      width:450px;
      height: 80px;
     border: 1px solid black;
      font-size: variables.$m-fontsize;
@@ -2676,7 +2754,7 @@ header{
          
    }
      input{
-      width: 500px;
+       width:450px;
      height: 80px;
     border: 1px solid black;
      font-size: variables.$m-fontsize;
@@ -2707,7 +2785,9 @@ header{
     
 }
 }
+
 }
+
 }
    .servicesec2{
     background-image: url(../images/georgianature12.jpg);
@@ -2738,6 +2818,7 @@ header{
      @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -2762,37 +2843,12 @@ header{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
  }
@@ -3045,9 +3101,10 @@ hr{
     h1{
        @extend %sec2h1;
     }
-     @media(max-width: 1400px){
+    @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -3072,37 +3129,12 @@ hr{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
  }
@@ -3515,6 +3547,7 @@ hr{
      @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -3539,37 +3572,12 @@ hr{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
  }
@@ -3735,9 +3743,10 @@ p{
     h1{
        @extend  %sec2h1;
 }
- @media(max-width: 1400px){
+  @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -3762,37 +3771,12 @@ p{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
 }
@@ -4073,9 +4057,10 @@ hr{
     h1{
        @extend %sec2h1;
     }
-     @media(max-width: 1400px){
+      @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -4100,37 +4085,12 @@ hr{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
 }
@@ -4279,6 +4239,7 @@ hr{
      @media(max-width: 1400px){
       h1{
         font-size:25px;
+        text-align: center;
       }
     }
     @media(max-width: 1100px){
@@ -4303,37 +4264,12 @@ hr{
      }
         @media(max-width: 730px){
        h1{
-        font-size:15px;
+        line-height: 1.5;;
       }
 }
-@media(max-width: 650px){
+   @media(max-width: 400px){
        h1{
-        font-size:13px;
-      }
-}
-@media(max-width: 560px){
-       h1{
-        font-size:12px;
-      }
-}
-@media(max-width: 520px){
-       h1{
-        font-size:variables.$s-fontsize;
-      }
-}
-@media(max-width: 440px){
-       h1{
-        font-size:9px;
-      }
-}
-       @media(max-width: 400px){
-        h1{
-        font-size:8px;
-      }
-       }
-         @media(max-width: 350px){
-        h1{
-        font-size:7px;
+         font-size: 15px;
       }
     }
 }
