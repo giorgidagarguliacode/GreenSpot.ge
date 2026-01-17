@@ -70,9 +70,6 @@ header {
   justify-content: space-around;
   align-items: none;
   padding: 45px 0 0 0;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 header .regitrationbutton, header .donationbutton {
@@ -187,6 +184,19 @@ html, body {
   overflow-x: hidden;
 }
 
+header {
+  transition: box-shadow 0.4s ease;
+}
+header:hover {
+  box-shadow: -1px 11px 30px 0px rgba(7, 116, 49, 0.75);
+}
+header .regitrationbutton {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+header .regitrationbutton:hover {
+  box-shadow: 1px -1px 35px 0px rgba(255, 255, 255, 0.75);
+  transform: translate(20px, 0);
+}
 header .headerdiv {
   display: flex;
   flex-direction: row;
@@ -202,8 +212,27 @@ header .headerdiv h1 {
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
 }
+@keyframes arrow {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 header .headerdiv i {
   font-size: 30px;
+  animation: arrow 2s ease infinite;
+}
+header .donationbutton {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+header .donationbutton:hover {
+  box-shadow: 1px -1px 35px 0px rgba(255, 255, 255, 0.75);
+  transform: translate(10px, 0);
 }
 @media (max-width: 1440px) {
   header .headerdiv {
@@ -217,8 +246,20 @@ header .headerdiv i {
   header .headerdiv h1 {
     font-size: 25px;
   }
+  @keyframes arrow {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(30px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
   header .headerdiv i {
     font-size: 25px;
+    animation: arrow 2s ease infinite;
   }
 }
 @media (max-width: 1020px) {
@@ -253,6 +294,17 @@ header .headerdiv i {
   }
   header .headerdiv h1 {
     font-size: 20px;
+  }
+  @keyframes arrow {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(20px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
   }
   header .headerdiv i {
     font-size: 20px;
@@ -418,6 +470,13 @@ header .headerdiv i {
   margin-right: 20px;
   color: white;
   font-size: 20px;
+}
+.sec1 nav a button {
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.sec1 nav a button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(5px, 5px);
 }
 @media (max-width: 1700px) {
   .sec1 img {
@@ -592,6 +651,10 @@ header .headerdiv i {
 
 .sec2 {
   background-image: url(../images/georgianature1.jpg);
+  transition: background-image 1s ease;
+}
+.sec2:hover {
+  background-image: url(../images/georgiantureanimation1.jpg);
 }
 @media (max-width: 1100px) {
   .sec2 {
@@ -753,6 +816,13 @@ header .headerdiv i {
     bottom: 5px;
   }
 }
+.sec3 .sec3container2 .sec3containernav div button {
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.sec3 .sec3container2 .sec3containernav div button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(10px, 0);
+}
 @media (max-width: 560px) {
   .sec3 .sec3container2 .sec3containernav div button {
     width: 200px;
@@ -876,6 +946,18 @@ header .headerdiv i {
   font-size: 30px;
   position: relative;
   left: 105px;
+  animation: arrowdown 2s ease infinite;
+}
+@keyframes arrowdown {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 @media (max-width: 1206px) {
   .sec4 .sec4container .sec4leftcontainer i {
@@ -933,6 +1015,11 @@ header .headerdiv i {
   font-size: 20px;
   font-weight: 700;
   color: white;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.sec4 .sec4container .sec4leftcontainer button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(0, 5px);
 }
 @media (max-width: 1206px) {
   .sec4 .sec4container .sec4leftcontainer button {
@@ -1039,6 +1126,10 @@ header .headerdiv i {
   align-items: center;
   gap: 30px;
   margin-bottom: 150px;
+  transition: box-shadow 0.4s ease;
+}
+.sec5:hover {
+  box-shadow: -1px -5px 26px 7px rgba(7, 116, 49, 0.75);
 }
 .sec5 h1 {
   color: white;
@@ -1054,6 +1145,7 @@ header .headerdiv i {
 }
 .sec5 i {
   font-size: 40px;
+  animation: arrowdown 2s ease infinite;
 }
 @media (max-width: 480px) {
   .sec5 i {
@@ -1149,6 +1241,10 @@ header .headerdiv i {
   width: 200px;
   background-color: #077431;
   margin-bottom: 50px;
+  transition: width 0.4s linear;
+}
+.sec6 .sec6container .topbox .topboxleft .underline:hover {
+  width: 300px;
 }
 @media (max-width: 350px) {
   .sec6 .sec6container .topbox .topboxleft .underline {
@@ -1322,6 +1418,10 @@ header .headerdiv i {
   width: 200px;
   background-color: #077431;
   margin-bottom: 50px;
+  transition: width 0.4s linear;
+}
+.sec6 .sec6container .bottombox .bottomboxright .underline:hover {
+  width: 300px;
 }
 .sec6 .sec6container .bottombox .bottomboxright p {
   color: black;
@@ -1425,8 +1525,20 @@ footer .footercontainer1 .footernavigation .footernav1 nav div {
   align-items: none;
   gap: 5px;
 }
+footer .footercontainer1 .footernavigation .footernav1 nav div a {
+  transition: all 0.4s ease;
+}
+footer .footercontainer1 .footernavigation .footernav1 nav div a:hover {
+  text-shadow: -5px 1px 6px rgba(255, 255, 255, 0.6);
+  transform: translate(5px, 0);
+}
 footer .footercontainer1 .footernavigation .footernav1 nav div i {
   font-size: 20px;
+  transition: all 0.4s ease;
+}
+footer .footercontainer1 .footernavigation .footernav1 nav div i:hover {
+  text-shadow: -5px 1px 6px rgba(255, 255, 255, 0.6);
+  transform: translate(5px, 0);
 }
 @media (max-width: 424px) {
   footer .footercontainer1 .footernavigation .footernav2 {
@@ -1445,6 +1557,11 @@ footer .footercontainer1 .footernavigation .footernav2 nav div {
 footer .footercontainer1 .footernavigation .footernav2 nav div a {
   position: relative;
   left: 60px;
+  transition: all 0.4s ease;
+}
+footer .footercontainer1 .footernavigation .footernav2 nav div a:hover {
+  text-shadow: -5px 1px 6px rgba(255, 255, 255, 0.6);
+  transform: translate(5px, 0);
 }
 @media (max-width: 600px) {
   footer .footercontainer1 .footernavigation .footernav2 nav div a {
@@ -1460,6 +1577,11 @@ footer .footercontainer1 .footernavigation .footernav2 nav div i {
   font-size: 20px;
   position: relative;
   left: 60px;
+  transition: all 0.4s ease;
+}
+footer .footercontainer1 .footernavigation .footernav2 nav div i:hover {
+  text-shadow: -5px 1px 6px rgba(255, 255, 255, 0.6);
+  transform: translate(5px, 0);
 }
 @media (max-width: 600px) {
   footer .footercontainer1 .footernavigation .footernav2 nav div i {
@@ -1595,6 +1717,13 @@ footer .footercontainer2 .footergreespotinfo p {
 
 .aboutussec2 {
   background-image: url(../images/georgianature6.jpeg);
+  transition: background-image 1s ease;
+}
+.aboutussec2:hover {
+  background-image: url(../images/georgianatureanimation3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (max-width: 1100px) {
   .aboutussec2 {
@@ -1749,12 +1878,18 @@ p {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  transition: box-shadow 0.4s ease;
+}
+.aboutussec4:hover {
+  box-shadow: -1px -5px 26px 7px rgba(7, 116, 49, 0.75);
 }
 .aboutussec4 h1 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   font-family: "Arial GEO", sans-serif;
+  text-align: center;
+  line-height: 1.5;
 }
 @media (max-width: 1000px) {
   .aboutussec4 h1 {
@@ -1766,27 +1901,8 @@ p {
     font-size: 25px;
   }
 }
-@media (max-width: 600px) {
-  .aboutussec4 h1 {
-    font-size: 22px;
-  }
-}
-@media (max-width: 550px) {
-  .aboutussec4 h1 {
-    font-size: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .aboutussec4 h1 {
-    font-size: 15px;
-  }
-}
-@media (max-width: 400px) {
-  .aboutussec4 h1 {
-    font-size: 12px;
-  }
-}
 .aboutussec4 i {
+  animation: arrowdown 2s ease infinite;
   font-size: 40px;
 }
 @media (max-width: 750px) {
@@ -2131,6 +2247,11 @@ p {
   color: white;
   border: none;
   border-radius: 10px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.aboutussec5 .aboutussec5container2 .sec5containerinfo a button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(5px, 5px);
 }
 @media (max-width: 1365px) {
   .aboutussec5 .aboutussec5container2 .sec5containerinfo a button {
@@ -2312,6 +2433,11 @@ p {
   color: white;
   border: none;
   border-radius: 10px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.aboutussec5 .aboutussec5container3 .sec5containerinfo a button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(5px, 5px);
 }
 @media (max-width: 1365px) {
   .aboutussec5 .aboutussec5container3 .sec5containerinfo a button {
@@ -2736,6 +2862,10 @@ p {
   align-items: none;
   background-color: rgb(12, 97, 12);
   border-radius: 20px;
+  transition: box-shadow 0.4s ease;
+}
+.registrationmain:hover {
+  box-shadow: 0px 2px 55px 18px rgba(255, 255, 255, 0.75);
 }
 .registrationmain .registrationtop {
   display: flex;
@@ -2875,6 +3005,11 @@ p {
   color: white;
   border: none;
   border-radius: 10px;
+  transition: all 0.4s ease;
+}
+.registrationmain .registrationbottom button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(255, 255, 255, 0.75);
+  transform: translate(10px, 0);
 }
 
 .donationcontainer {
@@ -2949,6 +3084,7 @@ p {
 @media (max-width: 1700px) {
   .donationcontainer .leftdonationdiv p {
     font-size: 17px;
+    text-align: center;
   }
 }
 @media (max-width: 800px) {
@@ -3007,6 +3143,7 @@ p {
   font-size: 40px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 @media (max-width: 1150px) {
   .donation-form .sec1donation h1 {
@@ -3208,8 +3345,11 @@ p {
   border: 1px solid black;
   width: 150px;
   height: 75px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 .donation-form .sec1donation .donationoptions .amount label:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(10px, 0);
   background-color: #077431;
   color: white;
 }
@@ -3231,6 +3371,7 @@ p {
   font-size: 40px;
   font-family: "Arial GEO", sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 @media (max-width: 700px) {
   .donation-form .sec2donation h1 {
@@ -3242,16 +3383,9 @@ p {
     font-size: 25px;
   }
 }
-@media (max-width: 440px) {
-  .donation-form .sec2donation h1 {
-    position: relative;
-    left: 80px;
-  }
-}
 @media (max-width: 460px) {
   .donation-form .sec2donation h1 {
     font-size: 19px;
-    margin-right: 50px;
   }
 }
 @media (max-width: 440px) {
@@ -3259,28 +3393,6 @@ p {
     font-size: 15px;
     margin-right: 80px;
     width: 100%;
-  }
-}
-@media (max-width: 430px) {
-  .donation-form .sec2donation h1 {
-    font-size: 15px;
-    margin-left: 30px;
-    width: 100%;
-  }
-}
-@media (max-width: 400px) {
-  .donation-form .sec2donation h1 {
-    left: 50px;
-  }
-}
-@media (max-width: 370px) {
-  .donation-form .sec2donation h1 {
-    left: 30px;
-  }
-}
-@media (max-width: 340px) {
-  .donation-form .sec2donation h1 {
-    left: 10px;
   }
 }
 .donation-form .sec2donation hr {
@@ -3523,7 +3635,7 @@ p {
 }
 .donation-form .sec3donation .sec3donationcontainer .sec3rightside button {
   cursor: pointer;
-  width: 500px;
+  width: 450px;
   height: 80px;
   background-color: #077431;
   font-family: "Arial GEO", sans-serif;
@@ -3531,10 +3643,19 @@ p {
   font-weight: 700;
   color: white;
   border: none;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.donation-form .sec3donation .sec3donationcontainer .sec3rightside button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(10px, 0);
 }
 
 .servicesec2 {
   background-image: url(../images/georgianature12.jpg);
+  transition: background-image 1s ease;
+}
+.servicesec2:hover {
+  background-image: url(../images/georgiantureanimation2.jpg);
 }
 @media (max-width: 1100px) {
   .servicesec2 {
@@ -3874,6 +3995,11 @@ p {
   color: white;
   border: none;
   border-radius: 10px;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+.servicesections .servicesectionscontainer .servicesectionsrightbox a button:hover {
+  box-shadow: 1px -1px 35px 0px rgba(7, 116, 49, 0.75);
+  transform: translate(10px, 0);
 }
 
 hr {
@@ -3910,6 +4036,10 @@ hr {
 
 .newssec2 {
   background-image: url(../images/georgianature16.webp);
+  transition: background-image 1s ease;
+}
+.newssec2:hover {
+  background-image: url(../images/georgiantureanimation4.jpg);
 }
 @media (max-width: 1100px) {
   .newssec2 {
@@ -4079,6 +4209,10 @@ hr {
   background-repeat: no-repeat;
   height: 500px;
   width: 90%;
+  transition: box-shadow 0.4s ease;
+}
+.newssec4 .newssec4container1:hover {
+  box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
 }
 .newssec4 .newssec4container1 .toppart1 {
   background-color: black;
@@ -4231,6 +4365,10 @@ hr {
   background-repeat: no-repeat;
   height: 500px;
   width: 90%;
+  transition: box-shadow 0.4s ease;
+}
+.newssec4 .newssec4container2:hover {
+  box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
 }
 .newssec4 .newssec4container2 .toppart2 {
   background-color: black;
@@ -4383,6 +4521,10 @@ hr {
   background-repeat: no-repeat;
   height: 500px;
   width: 90%;
+  transition: box-shadow 0.4s ease;
+}
+.newssec4 .newssec4container3:hover {
+  box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
 }
 .newssec4 .newssec4container3 .toppart3 {
   background-color: black;
@@ -4470,6 +4612,10 @@ hr {
 
 .contactsec2 {
   background-image: url(../images/georgianature17.webp);
+  transition: background-image 1s ease;
+}
+.contactsec2:hover {
+  background-image: url(../images/georgianatureanimation5.jpg);
 }
 @media (max-width: 1100px) {
   .contactsec2 {
@@ -4640,6 +4786,10 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  transition: all 0.4s ease;
+}
+.contactsec4 .contactsec4container:hover {
+  box-shadow: 0px 2px 42px 18px rgba(255, 255, 255, 0.75);
 }
 @media (max-width: 800px) {
   .contactsec4 .contactsec4container {
@@ -4739,6 +4889,10 @@ hr {
 
 .ecomapsec2 {
   background-image: url(../images/georgianature18.webp);
+  transition: background-image 1s ease;
+}
+.ecomapsec2:hover {
+  background-image: url(../images/georgianatureanimation6.jpg);
 }
 @media (max-width: 1100px) {
   .ecomapsec2 {
@@ -5291,6 +5445,10 @@ hr {
 
 .ecoadvicesec2 {
   background-image: url(../images/georgiaanature19.webp);
+  transition: background-image 1s ease;
+}
+.ecoadvicesec2:hover {
+  background-image: url(../images/georgianatureanimation7.jpg);
 }
 @media (max-width: 1100px) {
   .ecoadvicesec2 {
@@ -5682,6 +5840,10 @@ hr {
 
 .ecoeducationsec2 {
   background-image: url(../images/georgianature20.jpg);
+  transition: background-image 1s ease;
+}
+.ecoeducationsec2:hover {
+  background-image: url(../images/georgianatureanimation8.jpg);
 }
 @media (max-width: 1100px) {
   .ecoeducationsec2 {
@@ -5872,6 +6034,10 @@ hr {
   width: 250px;
   height: 7px;
   background-color: #077431;
+  transition: width 0.4s linear;
+}
+.ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 .littleline:hover {
+  width: 350px;
 }
 .ecoeducationsec4 .ecoeducationcontainersec4 .leftcontainer1 p {
   font-family: "Arial GEO", sans-serif;
@@ -5956,6 +6122,10 @@ hr {
   width: 250px;
   height: 7px;
   background-color: #077431;
+  transition: width 0.4s linear;
+}
+.ecoeducationsec4 .rightcontainer2 .littleline:hover {
+  width: 350px;
 }
 .ecoeducationsec4 .rightcontainer2 p {
   font-family: "Arial GEO", sans-serif;
