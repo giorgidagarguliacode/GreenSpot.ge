@@ -7,8 +7,18 @@ html, body {
 }
 header{
    @extend %header;
+     transition: box-shadow 0.4s ease;
+    &:hover{
+   box-shadow: -1px 11px 30px 0px rgba(7,116,49,0.75);
+    }
   .regitrationbutton{
        @extend %headerbutton;
+         transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+       &:hover{
+  box-shadow: 1px -1px 35px 0px rgba(255,255,255,0.75);
+  transform: translate(20px,0);
+       }
        .registrationa{
          @extend %headera;
        }
@@ -24,12 +34,25 @@ header{
        font-weight: variables.$bold-fontweight;
       
        }
+       @keyframes arrow {
+        0% { transform: translate(0,0);}
+        50% { transform: translate(100px,0);}
+        100% { transform: translate(0,0);}
+       }
     i{
         font-size: variables.$l-fontsize;
-}
-}
+      animation: arrow 2s ease infinite;
+      
+        }
+      }
 .donationbutton{
      @extend %headerbutton;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+       &:hover{
+  box-shadow: 1px -1px 35px 0px rgba(255,255,255,0.75);
+  transform: translate(10px,0);
+       }
      .donationa{
          @extend %headera;
      }
@@ -47,8 +70,14 @@ header{
         h1{
           font-size: 25px;
         }
+          @keyframes arrow {
+        0% { transform: translate(0,0);}
+        50% { transform: translate(30px,0);}
+        100% { transform: translate(0,0);}
+       }
         i{
              font-size: 25px;
+                animation: arrow 2s ease infinite;
         }
       }
     }
@@ -88,6 +117,11 @@ header{
         h1{
           font-size: variables.$m-fontsize;
         }
+          @keyframes arrow {
+        0% { transform: translate(0,0);}
+        50% { transform: translate(20px,0);}
+        100% { transform: translate(0,0);}
+       }
         i{
             font-size: variables.$m-fontsize; 
         }
@@ -267,6 +301,11 @@ header{
         }
         button{
            @extend %navigationbutton;
+           transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(5px,5px);
+            }
         }
         }
     }
@@ -274,6 +313,7 @@ header{
    @media(max-width: 1700px){
       img{
         margin: 0 50px 0 100px;
+            
       }
       .divider{
       margin-right: 70px;
@@ -497,6 +537,10 @@ header{
 .sec2{
     background-image: url(../images/georgianature1.jpg);
   @extend %sec2;
+       transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgiantureanimation1.jpg);
+              } 
     @media(max-width: 1100px){
        height: 700px;
     }
@@ -596,6 +640,7 @@ header{
         p{
             @extend  %sec3andsec4p;
             margin-bottom: 65px;
+         
            
         }
          @media(max-width:560px){
@@ -637,7 +682,11 @@ header{
              }
              button{
                @extend %sec3button;
-
+                   transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(10px,0);
+            }
                  @media (max-width: 560px){
     width: variables.$xl-w;
     font-size: 17px;
@@ -760,6 +809,12 @@ header{
             font-size: variables.$l-fontsize;
             position: relative;
             left: 105px;
+            @keyframes arrowdown{
+              0%{transform: translate(0,0);}
+              50%{transform: translate(0,20px);}
+              100%{transform: translate(0,0);}
+            }
+               animation: arrowdown 2s ease infinite;
               @media (max-width: 1206px){
               
                left: 250px;
@@ -808,6 +863,11 @@ header{
           font-size: variables.$m-fontsize;
           font-weight: variables.$bold-fontweight;
             color: variables.$primary-color;
+             transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(0,5px);
+            }
                @media (max-width: 1206px){
               position: relative;
                left: 145px;
@@ -905,6 +965,10 @@ header{
     @include mixin.flex(column,wrap,center,center);
     gap: variables.$l-gap;
     margin-bottom: 150px;
+      transition: box-shadow 0.4s ease;
+    &:hover{
+  box-shadow: -1px -5px 26px 7px rgba(7,116,49,0.75);
+    }
     h1{
      color: variables.$primary-color;
         font-size:60px;
@@ -917,6 +981,7 @@ header{
     }
     i{
       font-size: variables.$xl-fontsize;
+         animation: arrowdown 2s ease infinite;
          @media (max-width: 480px){
              font-size:35px;
           }
@@ -982,6 +1047,10 @@ header{
           width: variables.$xl-w;
           background-color: variables.$primary-backgroundcolor;
           margin-bottom: 50px;
+          transition: width 0.4s linear;
+            &:hover{
+              width: 300px;
+            }
              @media (max-width: 350px){
                           position: relative;
                           right: 20px;
@@ -1137,6 +1206,10 @@ header{
           width: variables.$xl-w;
           background-color: variables.$primary-backgroundcolor;
           margin-bottom: 50px;
+              transition: width 0.4s linear;
+            &:hover{
+              width: 300px;
+            }
         }
 
         p{
@@ -1226,10 +1299,19 @@ header{
          gap:5px;
        a{
        @extend  %footera;
+            transition: all 0.4s ease;
+          &:hover{
+              text-shadow: -5px 1px 6px rgba(255,255,255,0.6);
+              transform: translate(5px,0);
+            }
         }
           i{
             font-size: variables.$m-fontsize;
-            
+              transition: all 0.4s ease;
+          &:hover{
+              text-shadow: -5px 1px 6px rgba(255,255,255,0.6);
+              transform: translate(5px,0);
+            }
           }
       }
      }
@@ -1250,6 +1332,11 @@ header{
             position: relative;
            left: 60px;
            @extend  %footera;
+           transition: all 0.4s ease;
+              &:hover{
+              text-shadow: -5px 1px 6px rgba(255,255,255,0.6);
+              transform: translate(5px,0);
+            }
           @media(max-width: 600px){
                 left: 10px;
            
@@ -1263,6 +1350,11 @@ header{
             font-size: variables.$m-fontsize;
               position: relative;
               left: 60px;
+                transition: all 0.4s ease;
+          &:hover{
+              text-shadow: -5px 1px 6px rgba(255,255,255,0.6);
+              transform: translate(5px,0);
+            }
                @media(max-width: 600px){
                 left: 10px;
            
@@ -1390,7 +1482,13 @@ header{
  .aboutussec2{
     background-image: url(../images/georgianature6.jpeg);
     @extend %sec2;
-  
+    transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgianatureanimation3.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -1510,32 +1608,27 @@ header{
     margin-bottom: 150px;
     @include mixin.flex(column,wrap,center,center);
     gap: variables.$xxl-gap;
+          transition: box-shadow 0.4s ease;
+    &:hover{
+  box-shadow: -1px -5px 26px 7px rgba(7,116,49,0.75);
+    }
     h1{
       color: variables.$primary-color;
       font-size: variables.$xl-fontsize;
       font-weight: variables.$bold-fontweight;
       font-family: variables.$font-family;
+      text-align: center;
+      line-height: 1.5;
          @media (max-width: 1000px){
            font-size: variables.$l-fontsize;
  }
          @media (max-width: 750px){
            font-size:25px;
  }
-   @media (max-width: 600px){
-           font-size:22px;
- }
- @media (max-width: 550px){
-          font-size: 20px;
- }
- 
-  @media (max-width: 480px){
-           font-size:15px;
- }
-  @media (max-width: 400px){
-           font-size:12px;
- }
+
 }
     i{
+           animation: arrowdown 2s ease infinite;
       font-size: variables.$xl-fontsize;
             @media (max-width: 750px){
            font-size: variables.$l-fontsize;
@@ -1770,6 +1863,11 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
+          transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(5px,5px);
+            }
           @media (max-width: 1365px){
             margin-bottom: 150px;
           }
@@ -1897,6 +1995,11 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
+             transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(5px,5px);
+            }
            @media (max-width: 1365px){
             margin-bottom: 150px;
           }
@@ -2182,7 +2285,10 @@ header{
     @include mixin.flex(column,wrap,none,none);
     background-color: rgb(12, 97, 12);
    border-radius: 20px;
-    
+       transition: box-shadow 0.4s ease;
+    &:hover{
+ box-shadow: 0px 2px 55px 18px rgba(255,255,255,0.75);
+    }
   .registrationtop{
       @include mixin.flex(row,wrap,center,center);
       gap: variables.$l-gap;
@@ -2287,6 +2393,11 @@ header{
             color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
+          transition: all 0.4s ease;
+          &:hover{
+  box-shadow: 1px -1px 35px 0px rgba(255, 255, 255, 0.75);
+  transform: translate(10px,0);
+          }
         }
       
       }
@@ -2340,6 +2451,7 @@ header{
       line-height: 1.5;
         @media(max-width: 1700px){
          font-size:17px;
+         text-align: center;
       }
          @media(max-width: 800px){
          font-size:15px;
@@ -2384,6 +2496,7 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+      text-align: center;
         @media(max-width: 1150px){
              font-size: variables.$l-fontsize;
      }
@@ -2457,6 +2570,7 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+    
        @media(max-width: 1150px){
              font-size: variables.$l-fontsize;
      }
@@ -2521,11 +2635,14 @@ header{
              border: 1px solid black;
              width: variables.$l-w;
              height: 75px;
-            
-             &:hover{
-                  background-color: variables.$primary-backgroundcolor;
+               transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(10px,0);
+                 background-color: variables.$primary-backgroundcolor;
                   color: white;
-             }
+            }
+            
 
            }
           input:checked + label {
@@ -2546,6 +2663,7 @@ header{
       font-size: variables.$xl-fontsize;
       font-family: variables.$font-family;
       font-weight: variables.$bold-fontweight;
+      text-align: center;
        
            @media(max-width: 700px){
              font-size: variables.$l-fontsize;
@@ -2553,41 +2671,17 @@ header{
       @media(max-width: 620px){
              font-size: 25px;
      }
-      
-     @media(max-width: 440px){
-             position: relative;
-             left: 80px;
-            
-     }
+   
      @media(max-width: 460px){
              font-size: 19px;
-             margin-right: 50px;
+         
      }
        @media(max-width: 440px){
              font-size: 15px;
              margin-right: 80px;
             width: 100%
      }
-     @media(max-width: 430px){
-             font-size: 15px;
-             margin-left:30px;
-            width: 100%
-     }
-     @media(max-width: 400px){
-            
-             left: 50px;
-            
-     }
-      @media(max-width: 370px){
-            
-             left: 30px;
-            
-     }
-      @media(max-width: 340px){
-            
-             left: 10px;
-            
-     }
+    
      }
     hr{
       width: 100%;
@@ -2776,7 +2870,7 @@ header{
      
       button{
           cursor: pointer;
-         width: 500px;
+         width: 450px;
           height: 80px;
           background-color: variables.$primary-backgroundcolor;
            font-family: variables.$font-family;
@@ -2784,7 +2878,11 @@ header{
           font-weight: variables.$bold-fontweight;
             color: variables.$primary-color;
           border: none;
-        
+           transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(10px,0);
+            }
         }
     
 }
@@ -2796,6 +2894,10 @@ header{
    .servicesec2{
     background-image: url(../images/georgianature12.jpg);
     @extend %sec2;
+     transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgiantureanimation2.jpg);
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -3047,7 +3149,11 @@ header{
           color: variables.$primary-color;
           border: none;
           border-radius: variables.$border-radius;
-          
+              transition: box-shadow 0.4s ease,transform 0.4s ease;
+            &:hover{
+               box-shadow: 1px -1px 35px 0px rgba(7,116,49,0.75);
+               transform: translate(10px,0);
+            }
       }
     }
 }
@@ -3082,6 +3188,10 @@ hr{
  .newssec2{
     background-image: url(../images/georgianature16.webp);
     @extend %sec2;
+         transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgiantureanimation4.jpg);
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -3210,7 +3320,10 @@ hr{
     background-repeat: no-repeat;
     height: 500px;
     width: 90%;
-   
+    transition: box-shadow 0.4s ease;
+    &:hover{
+      box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
+    }
     .toppart1{
       background-color: black;
       width: 100%;
@@ -3332,7 +3445,10 @@ hr{
     background-repeat: no-repeat;
     height: 500px;
     width: 90%;
-  
+    transition: box-shadow 0.4s ease;
+    &:hover{
+      box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
+    }
     .toppart2{
             background-color: black;
       width: 100%;
@@ -3455,7 +3571,10 @@ hr{
     background-repeat: no-repeat;
     height: 500px;
     width: 90%;
-
+  transition: box-shadow 0.4s ease;
+    &:hover{
+      box-shadow: 0px 2px 42px 18px rgba(18, 90, 36, 0.75);
+    }
      .toppart3{
             background-color: black;
       width: 100%;
@@ -3525,6 +3644,10 @@ hr{
 .contactsec2{
     background-image: url(../images/georgianature17.webp);
     @extend %sec2;
+       transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgianatureanimation5.jpg);
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -3592,6 +3715,7 @@ hr{
  .contactsec3container{
   @include mixin.flex(row,nowrap,none,none);
   gap: variables.$xxl-gap;
+  
      @media (max-width: 400px){
           gap: variables.$m-gap;
        }
@@ -3653,6 +3777,10 @@ p{
     border: 4px solid black;
     @include mixin.flex(column,wrap,center,center);
     gap: variables.$xxl-gap;
+    transition: all 0.4s ease;
+    &:hover{
+      box-shadow: 0px 2px 42px 18px rgba(255,255,255,0.75);
+    }
       @media (max-width: 800px){
            width: 100%;
         }
@@ -3724,6 +3852,10 @@ p{
 .ecomapsec2{
     background-image: url(../images/georgianature18.webp);
   @extend %sec2;
+      transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgianatureanimation6.jpg);
+              } 
    @media(max-width: 1100px){
        height: 700px;
     }
@@ -4145,6 +4277,10 @@ hr{
 .ecoadvicesec2{
   background-image: url(../images/georgiaanature19.webp);
     @extend %sec2;
+      transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgianatureanimation7.jpg);
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -4435,6 +4571,10 @@ hr{
 .ecoeducationsec2{
   background-image: url(../images/georgianature20.jpg);
     @extend %sec2;
+      transition: background-image 1s ease;
+    &:hover{
+            background-image: url(../images/georgianatureanimation8.jpg);
+              } 
      @media(max-width: 1100px){
        height: 700px;
     }
@@ -4573,7 +4713,10 @@ hr{
       width: variables.$xxl-w;
       height: 7px;
       background-color: variables.$primary-backgroundcolor;
-      
+         transition: width 0.4s linear;
+            &:hover{
+              width: 350px;
+            }
     }
     p{
       font-family: variables.$font-family;
@@ -4643,7 +4786,10 @@ hr{
       width: variables.$xxl-w;
       height: 7px;
       background-color: variables.$primary-backgroundcolor;
-      
+         transition: width 0.4s linear;
+            &:hover{
+              width: 350px;
+            }
     }
     p{
       font-family: variables.$font-family;
